@@ -779,9 +779,9 @@
             this.Column7,
             this.Column8,
             this.Column9});
-            this.dataGridView1.Location = new System.Drawing.Point(10, 18);
+            this.dataGridView1.Location = new System.Drawing.Point(6, 33);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(949, 597);
+            this.dataGridView1.Size = new System.Drawing.Size(958, 588);
             this.dataGridView1.TabIndex = 0;
             // 
             // tabPage4
@@ -1182,7 +1182,7 @@
             // 
             this.materialTabSelector1.BaseTabControl = this.materialTabControl1;
             this.materialTabSelector1.Depth = 0;
-            this.materialTabSelector1.Location = new System.Drawing.Point(12, 73);
+            this.materialTabSelector1.Location = new System.Drawing.Point(12, 81);
             this.materialTabSelector1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialTabSelector1.Name = "materialTabSelector1";
             this.materialTabSelector1.Size = new System.Drawing.Size(982, 23);
@@ -1192,7 +1192,7 @@
             // materialRaisedButton1
             // 
             this.materialRaisedButton1.Depth = 0;
-            this.materialRaisedButton1.Location = new System.Drawing.Point(16, 792);
+            this.materialRaisedButton1.Location = new System.Drawing.Point(12, 786);
             this.materialRaisedButton1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialRaisedButton1.Name = "materialRaisedButton1";
             this.materialRaisedButton1.Primary = true;

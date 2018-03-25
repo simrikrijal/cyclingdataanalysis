@@ -866,7 +866,6 @@ namespace CyclingDataAnalysis
 
         private void zedGraph()
         {
-
             GraphPane graphValue = zedGraphControl1.GraphPane;
 
             graphValue.CurveList.Clear();
