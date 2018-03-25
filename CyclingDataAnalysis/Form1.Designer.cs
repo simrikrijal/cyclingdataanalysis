@@ -34,15 +34,11 @@
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
-            this.pictureBox18 = new System.Windows.Forms.PictureBox();
-            this.pictureBox19 = new System.Windows.Forms.PictureBox();
-            this.pictureBox20 = new System.Windows.Forms.PictureBox();
             this.lblStartDelay = new System.Windows.Forms.TextBox();
             this.txtRestHr = new System.Windows.Forms.TextBox();
             this.txtMaxHr = new System.Windows.Forms.TextBox();
             this.label21 = new System.Windows.Forms.Label();
             this.lblVO2max = new System.Windows.Forms.TextBox();
-            this.pictureBox21 = new System.Windows.Forms.PictureBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -50,13 +46,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.lblInterval = new System.Windows.Forms.TextBox();
             this.lblWeight = new System.Windows.Forms.TextBox();
             this.lblSmode = new System.Windows.Forms.TextBox();
@@ -66,33 +55,23 @@
             this.lblLength = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.lblVersion = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.label15 = new System.Windows.Forms.Label();
             this.lblSmHrcc = new System.Windows.Forms.TextBox();
-            this.pictureBox15 = new System.Windows.Forms.PictureBox();
             this.lblsmPwbal = new System.Windows.Forms.TextBox();
-            this.pictureBox16 = new System.Windows.Forms.PictureBox();
             this.label16 = new System.Windows.Forms.Label();
-            this.pictureBox17 = new System.Windows.Forms.PictureBox();
             this.label17 = new System.Windows.Forms.Label();
             this.lblsmAltd = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.lblsmUs = new System.Windows.Forms.TextBox();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.lblsmPowerIndex = new System.Windows.Forms.TextBox();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
             this.label13 = new System.Windows.Forms.Label();
-            this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.label14 = new System.Windows.Forms.Label();
             this.lblsmCad = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.lblsmAir = new System.Windows.Forms.TextBox();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.lblsmPower = new System.Windows.Forms.TextBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.label9 = new System.Windows.Forms.Label();
             this.lblsmSpeed = new System.Windows.Forms.TextBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
@@ -111,41 +90,73 @@
             this.radioUSUnit = new System.Windows.Forms.RadioButton();
             this.lblTotalDistance = new System.Windows.Forms.TextBox();
             this.label31 = new System.Windows.Forms.Label();
-            this.pictureBox31 = new System.Windows.Forms.PictureBox();
             this.label28 = new System.Windows.Forms.Label();
             this.lblMaximumAltitude = new System.Windows.Forms.TextBox();
-            this.pictureBox28 = new System.Windows.Forms.PictureBox();
             this.lblAveragePower = new System.Windows.Forms.TextBox();
-            this.pictureBox29 = new System.Windows.Forms.PictureBox();
             this.label29 = new System.Windows.Forms.Label();
-            this.pictureBox30 = new System.Windows.Forms.PictureBox();
             this.label30 = new System.Windows.Forms.Label();
             this.lblAverageHeartRate = new System.Windows.Forms.TextBox();
             this.label25 = new System.Windows.Forms.Label();
             this.lblAverageAltitude = new System.Windows.Forms.TextBox();
-            this.pictureBox25 = new System.Windows.Forms.PictureBox();
             this.lblMaximumHeartRate = new System.Windows.Forms.TextBox();
-            this.pictureBox26 = new System.Windows.Forms.PictureBox();
             this.label26 = new System.Windows.Forms.Label();
-            this.pictureBox27 = new System.Windows.Forms.PictureBox();
             this.label27 = new System.Windows.Forms.Label();
             this.lblMaximumSpeed = new System.Windows.Forms.TextBox();
             this.label22 = new System.Windows.Forms.Label();
             this.lblMaximumPower = new System.Windows.Forms.TextBox();
-            this.pictureBox22 = new System.Windows.Forms.PictureBox();
             this.lblMinimumHeartRate = new System.Windows.Forms.TextBox();
-            this.pictureBox23 = new System.Windows.Forms.PictureBox();
             this.label23 = new System.Windows.Forms.Label();
-            this.pictureBox24 = new System.Windows.Forms.PictureBox();
             this.label24 = new System.Windows.Forms.Label();
             this.lblAverageSpeed = new System.Windows.Forms.TextBox();
             this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.graph_index_panel = new System.Windows.Forms.Panel();
+            this.chkCadence = new System.Windows.Forms.CheckBox();
+            this.chkPower = new System.Windows.Forms.CheckBox();
+            this.chkAltitude = new System.Windows.Forms.CheckBox();
+            this.chkSpeed = new System.Windows.Forms.CheckBox();
+            this.chkHeartRate = new System.Windows.Forms.CheckBox();
+            this.zedGraphControl1 = new ZedGraph.ZedGraphControl();
             this.materialTabSelector1 = new MaterialSkin.Controls.MaterialTabSelector();
             this.materialRaisedButton1 = new MaterialSkin.Controls.MaterialRaisedButton();
-            this.zedGraphControl1 = new ZedGraph.ZedGraphControl();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox18 = new System.Windows.Forms.PictureBox();
+            this.pictureBox19 = new System.Windows.Forms.PictureBox();
+            this.pictureBox20 = new System.Windows.Forms.PictureBox();
+            this.pictureBox21 = new System.Windows.Forms.PictureBox();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox15 = new System.Windows.Forms.PictureBox();
+            this.pictureBox16 = new System.Windows.Forms.PictureBox();
+            this.pictureBox17 = new System.Windows.Forms.PictureBox();
+            this.pictureBox12 = new System.Windows.Forms.PictureBox();
+            this.pictureBox13 = new System.Windows.Forms.PictureBox();
+            this.pictureBox14 = new System.Windows.Forms.PictureBox();
+            this.pictureBox11 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.pictureBox31 = new System.Windows.Forms.PictureBox();
+            this.pictureBox28 = new System.Windows.Forms.PictureBox();
+            this.pictureBox29 = new System.Windows.Forms.PictureBox();
+            this.pictureBox30 = new System.Windows.Forms.PictureBox();
+            this.pictureBox25 = new System.Windows.Forms.PictureBox();
+            this.pictureBox26 = new System.Windows.Forms.PictureBox();
+            this.pictureBox27 = new System.Windows.Forms.PictureBox();
+            this.pictureBox22 = new System.Windows.Forms.PictureBox();
+            this.pictureBox23 = new System.Windows.Forms.PictureBox();
+            this.pictureBox24 = new System.Windows.Forms.PictureBox();
             this.materialTabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
+            this.tabPage3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.tabPage4.SuspendLayout();
+            this.tabPage5.SuspendLayout();
+            this.graph_index_panel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
@@ -158,7 +169,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
@@ -168,9 +178,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            this.tabPage3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.tabPage4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox31)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).BeginInit();
@@ -181,7 +188,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
-            this.tabPage5.SuspendLayout();
             this.SuspendLayout();
             // 
             // materialTabControl1
@@ -277,36 +283,6 @@
             this.label20.TabIndex = 44;
             this.label20.Text = "Max HR";
             // 
-            // pictureBox18
-            // 
-            this.pictureBox18.Image = global::CyclingDataAnalysis.Properties.Resources.start_delay;
-            this.pictureBox18.Location = new System.Drawing.Point(447, 443);
-            this.pictureBox18.Name = "pictureBox18";
-            this.pictureBox18.Size = new System.Drawing.Size(52, 53);
-            this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox18.TabIndex = 43;
-            this.pictureBox18.TabStop = false;
-            // 
-            // pictureBox19
-            // 
-            this.pictureBox19.Image = global::CyclingDataAnalysis.Properties.Resources.rest_hr;
-            this.pictureBox19.Location = new System.Drawing.Point(447, 307);
-            this.pictureBox19.Name = "pictureBox19";
-            this.pictureBox19.Size = new System.Drawing.Size(52, 53);
-            this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox19.TabIndex = 42;
-            this.pictureBox19.TabStop = false;
-            // 
-            // pictureBox20
-            // 
-            this.pictureBox20.Image = global::CyclingDataAnalysis.Properties.Resources.max_hr;
-            this.pictureBox20.Location = new System.Drawing.Point(447, 164);
-            this.pictureBox20.Name = "pictureBox20";
-            this.pictureBox20.Size = new System.Drawing.Size(52, 53);
-            this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox20.TabIndex = 41;
-            this.pictureBox20.TabStop = false;
-            // 
             // lblStartDelay
             // 
             this.lblStartDelay.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -364,16 +340,6 @@
             this.lblVO2max.TabIndex = 36;
             this.lblVO2max.Text = "N/A";
             this.lblVO2max.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // pictureBox21
-            // 
-            this.pictureBox21.Image = global::CyclingDataAnalysis.Properties.Resources.vo2;
-            this.pictureBox21.Location = new System.Drawing.Point(447, 36);
-            this.pictureBox21.Name = "pictureBox21";
-            this.pictureBox21.Size = new System.Drawing.Size(52, 53);
-            this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox21.TabIndex = 35;
-            this.pictureBox21.TabStop = false;
             // 
             // label8
             // 
@@ -444,75 +410,6 @@
             this.label2.Size = new System.Drawing.Size(59, 18);
             this.label2.TabIndex = 28;
             this.label2.Text = "Monitor";
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.Location = new System.Drawing.Point(797, 443);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(52, 53);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox9.TabIndex = 27;
-            this.pictureBox9.TabStop = false;
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.Image = global::CyclingDataAnalysis.Properties.Resources.smode;
-            this.pictureBox8.Location = new System.Drawing.Point(797, 307);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(52, 53);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox8.TabIndex = 26;
-            this.pictureBox8.TabStop = false;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Image = global::CyclingDataAnalysis.Properties.Resources.date;
-            this.pictureBox7.Location = new System.Drawing.Point(797, 164);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(52, 53);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox7.TabIndex = 25;
-            this.pictureBox7.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = global::CyclingDataAnalysis.Properties.Resources.monitor;
-            this.pictureBox6.Location = new System.Drawing.Point(797, 36);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(52, 53);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox6.TabIndex = 24;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::CyclingDataAnalysis.Properties.Resources.weight;
-            this.pictureBox5.Location = new System.Drawing.Point(107, 443);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(52, 53);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 23;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::CyclingDataAnalysis.Properties.Resources.start_time;
-            this.pictureBox4.Location = new System.Drawing.Point(107, 307);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(52, 53);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 22;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::CyclingDataAnalysis.Properties.Resources.length;
-            this.pictureBox3.Location = new System.Drawing.Point(107, 164);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(52, 53);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 21;
-            this.pictureBox3.TabStop = false;
             // 
             // lblInterval
             // 
@@ -621,16 +518,6 @@
             this.lblVersion.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.lblVersion.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::CyclingDataAnalysis.Properties.Resources.version;
-            this.pictureBox1.Location = new System.Drawing.Point(107, 36);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(52, 53);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
             // tabPage2
             // 
             this.tabPage2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
@@ -691,15 +578,6 @@
             this.lblSmHrcc.Text = "N/A";
             this.lblSmHrcc.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // pictureBox15
-            // 
-            this.pictureBox15.Location = new System.Drawing.Point(781, 393);
-            this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(52, 53);
-            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox15.TabIndex = 34;
-            this.pictureBox15.TabStop = false;
-            // 
             // lblsmPwbal
             // 
             this.lblsmPwbal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -712,15 +590,6 @@
             this.lblsmPwbal.Text = "N/A";
             this.lblsmPwbal.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // pictureBox16
-            // 
-            this.pictureBox16.Location = new System.Drawing.Point(781, 76);
-            this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(52, 53);
-            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox16.TabIndex = 32;
-            this.pictureBox16.TabStop = false;
-            // 
             // label16
             // 
             this.label16.AutoSize = true;
@@ -730,15 +599,6 @@
             this.label16.Size = new System.Drawing.Size(108, 18);
             this.label16.TabIndex = 31;
             this.label16.Text = "Power Balance";
-            // 
-            // pictureBox17
-            // 
-            this.pictureBox17.Location = new System.Drawing.Point(781, 238);
-            this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(52, 53);
-            this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox17.TabIndex = 30;
-            this.pictureBox17.TabStop = false;
             // 
             // label17
             // 
@@ -784,15 +644,6 @@
             this.lblsmUs.Text = "N/A";
             this.lblsmUs.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // pictureBox12
-            // 
-            this.pictureBox12.Location = new System.Drawing.Point(459, 393);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(52, 53);
-            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox12.TabIndex = 25;
-            this.pictureBox12.TabStop = false;
-            // 
             // lblsmPowerIndex
             // 
             this.lblsmPowerIndex.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -805,15 +656,6 @@
             this.lblsmPowerIndex.Text = "N/A";
             this.lblsmPowerIndex.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // pictureBox13
-            // 
-            this.pictureBox13.Location = new System.Drawing.Point(456, 76);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(52, 53);
-            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox13.TabIndex = 23;
-            this.pictureBox13.TabStop = false;
-            // 
             // label13
             // 
             this.label13.AutoSize = true;
@@ -823,15 +665,6 @@
             this.label13.Size = new System.Drawing.Size(89, 18);
             this.label13.TabIndex = 22;
             this.label13.Text = "Power Index";
-            // 
-            // pictureBox14
-            // 
-            this.pictureBox14.Location = new System.Drawing.Point(459, 238);
-            this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(52, 53);
-            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox14.TabIndex = 21;
-            this.pictureBox14.TabStop = false;
             // 
             // label14
             // 
@@ -877,15 +710,6 @@
             this.lblsmAir.Text = "N/A";
             this.lblsmAir.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // pictureBox11
-            // 
-            this.pictureBox11.Location = new System.Drawing.Point(126, 393);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(52, 53);
-            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox11.TabIndex = 16;
-            this.pictureBox11.TabStop = false;
-            // 
             // lblsmPower
             // 
             this.lblsmPower.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -898,15 +722,6 @@
             this.lblsmPower.Text = "N/A";
             this.lblsmPower.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Location = new System.Drawing.Point(126, 76);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(52, 53);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 14;
-            this.pictureBox2.TabStop = false;
-            // 
             // label10
             // 
             this.label10.AutoSize = true;
@@ -916,15 +731,6 @@
             this.label10.Size = new System.Drawing.Size(51, 18);
             this.label10.TabIndex = 12;
             this.label10.Text = "Power";
-            // 
-            // pictureBox10
-            // 
-            this.pictureBox10.Location = new System.Drawing.Point(126, 238);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(52, 53);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox10.TabIndex = 11;
-            this.pictureBox10.TabStop = false;
             // 
             // label9
             // 
@@ -1030,34 +836,34 @@
             this.tabPage4.Controls.Add(this.radioUSUnit);
             this.tabPage4.Controls.Add(this.lblTotalDistance);
             this.tabPage4.Controls.Add(this.label31);
-            this.tabPage4.Controls.Add(this.pictureBox31);
             this.tabPage4.Controls.Add(this.label28);
             this.tabPage4.Controls.Add(this.lblMaximumAltitude);
-            this.tabPage4.Controls.Add(this.pictureBox28);
             this.tabPage4.Controls.Add(this.lblAveragePower);
-            this.tabPage4.Controls.Add(this.pictureBox29);
             this.tabPage4.Controls.Add(this.label29);
-            this.tabPage4.Controls.Add(this.pictureBox30);
             this.tabPage4.Controls.Add(this.label30);
             this.tabPage4.Controls.Add(this.lblAverageHeartRate);
             this.tabPage4.Controls.Add(this.label25);
             this.tabPage4.Controls.Add(this.lblAverageAltitude);
-            this.tabPage4.Controls.Add(this.pictureBox25);
             this.tabPage4.Controls.Add(this.lblMaximumHeartRate);
-            this.tabPage4.Controls.Add(this.pictureBox26);
             this.tabPage4.Controls.Add(this.label26);
-            this.tabPage4.Controls.Add(this.pictureBox27);
             this.tabPage4.Controls.Add(this.label27);
             this.tabPage4.Controls.Add(this.lblMaximumSpeed);
             this.tabPage4.Controls.Add(this.label22);
             this.tabPage4.Controls.Add(this.lblMaximumPower);
-            this.tabPage4.Controls.Add(this.pictureBox22);
             this.tabPage4.Controls.Add(this.lblMinimumHeartRate);
-            this.tabPage4.Controls.Add(this.pictureBox23);
             this.tabPage4.Controls.Add(this.label23);
-            this.tabPage4.Controls.Add(this.pictureBox24);
             this.tabPage4.Controls.Add(this.label24);
             this.tabPage4.Controls.Add(this.lblAverageSpeed);
+            this.tabPage4.Controls.Add(this.pictureBox31);
+            this.tabPage4.Controls.Add(this.pictureBox28);
+            this.tabPage4.Controls.Add(this.pictureBox29);
+            this.tabPage4.Controls.Add(this.pictureBox30);
+            this.tabPage4.Controls.Add(this.pictureBox25);
+            this.tabPage4.Controls.Add(this.pictureBox26);
+            this.tabPage4.Controls.Add(this.pictureBox27);
+            this.tabPage4.Controls.Add(this.pictureBox22);
+            this.tabPage4.Controls.Add(this.pictureBox23);
+            this.tabPage4.Controls.Add(this.pictureBox24);
             this.tabPage4.Location = new System.Drawing.Point(4, 22);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
@@ -1114,15 +920,6 @@
             this.label31.TabIndex = 47;
             this.label31.Text = "Total Distance Covered";
             // 
-            // pictureBox31
-            // 
-            this.pictureBox31.Location = new System.Drawing.Point(469, 487);
-            this.pictureBox31.Name = "pictureBox31";
-            this.pictureBox31.Size = new System.Drawing.Size(52, 53);
-            this.pictureBox31.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox31.TabIndex = 46;
-            this.pictureBox31.TabStop = false;
-            // 
             // label28
             // 
             this.label28.AutoSize = true;
@@ -1145,15 +942,6 @@
             this.lblMaximumAltitude.Text = "N/A";
             this.lblMaximumAltitude.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // pictureBox28
-            // 
-            this.pictureBox28.Location = new System.Drawing.Point(786, 335);
-            this.pictureBox28.Name = "pictureBox28";
-            this.pictureBox28.Size = new System.Drawing.Size(52, 53);
-            this.pictureBox28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox28.TabIndex = 43;
-            this.pictureBox28.TabStop = false;
-            // 
             // lblAveragePower
             // 
             this.lblAveragePower.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1166,15 +954,6 @@
             this.lblAveragePower.Text = "N/A";
             this.lblAveragePower.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // pictureBox29
-            // 
-            this.pictureBox29.Location = new System.Drawing.Point(786, 18);
-            this.pictureBox29.Name = "pictureBox29";
-            this.pictureBox29.Size = new System.Drawing.Size(52, 53);
-            this.pictureBox29.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox29.TabIndex = 41;
-            this.pictureBox29.TabStop = false;
-            // 
             // label29
             // 
             this.label29.AutoSize = true;
@@ -1184,15 +963,6 @@
             this.label29.Size = new System.Drawing.Size(108, 18);
             this.label29.TabIndex = 40;
             this.label29.Text = "Average Power";
-            // 
-            // pictureBox30
-            // 
-            this.pictureBox30.Location = new System.Drawing.Point(786, 180);
-            this.pictureBox30.Name = "pictureBox30";
-            this.pictureBox30.Size = new System.Drawing.Size(52, 53);
-            this.pictureBox30.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox30.TabIndex = 39;
-            this.pictureBox30.TabStop = false;
             // 
             // label30
             // 
@@ -1238,15 +1008,6 @@
             this.lblAverageAltitude.Text = "N/A";
             this.lblAverageAltitude.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // pictureBox25
-            // 
-            this.pictureBox25.Location = new System.Drawing.Point(468, 335);
-            this.pictureBox25.Name = "pictureBox25";
-            this.pictureBox25.Size = new System.Drawing.Size(52, 53);
-            this.pictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox25.TabIndex = 34;
-            this.pictureBox25.TabStop = false;
-            // 
             // lblMaximumHeartRate
             // 
             this.lblMaximumHeartRate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1259,15 +1020,6 @@
             this.lblMaximumHeartRate.Text = "N/A";
             this.lblMaximumHeartRate.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // pictureBox26
-            // 
-            this.pictureBox26.Location = new System.Drawing.Point(469, 18);
-            this.pictureBox26.Name = "pictureBox26";
-            this.pictureBox26.Size = new System.Drawing.Size(52, 53);
-            this.pictureBox26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox26.TabIndex = 32;
-            this.pictureBox26.TabStop = false;
-            // 
             // label26
             // 
             this.label26.AutoSize = true;
@@ -1277,15 +1029,6 @@
             this.label26.Size = new System.Drawing.Size(148, 18);
             this.label26.TabIndex = 31;
             this.label26.Text = "Maximum Heart Rate";
-            // 
-            // pictureBox27
-            // 
-            this.pictureBox27.Location = new System.Drawing.Point(468, 180);
-            this.pictureBox27.Name = "pictureBox27";
-            this.pictureBox27.Size = new System.Drawing.Size(52, 53);
-            this.pictureBox27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox27.TabIndex = 30;
-            this.pictureBox27.TabStop = false;
             // 
             // label27
             // 
@@ -1331,15 +1074,6 @@
             this.lblMaximumPower.Text = "N/A";
             this.lblMaximumPower.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // pictureBox22
-            // 
-            this.pictureBox22.Location = new System.Drawing.Point(161, 335);
-            this.pictureBox22.Name = "pictureBox22";
-            this.pictureBox22.Size = new System.Drawing.Size(52, 53);
-            this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox22.TabIndex = 25;
-            this.pictureBox22.TabStop = false;
-            // 
             // lblMinimumHeartRate
             // 
             this.lblMinimumHeartRate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1352,15 +1086,6 @@
             this.lblMinimumHeartRate.Text = "N/A";
             this.lblMinimumHeartRate.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // pictureBox23
-            // 
-            this.pictureBox23.Location = new System.Drawing.Point(161, 18);
-            this.pictureBox23.Name = "pictureBox23";
-            this.pictureBox23.Size = new System.Drawing.Size(52, 53);
-            this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox23.TabIndex = 23;
-            this.pictureBox23.TabStop = false;
-            // 
             // label23
             // 
             this.label23.AutoSize = true;
@@ -1370,15 +1095,6 @@
             this.label23.Size = new System.Drawing.Size(144, 18);
             this.label23.TabIndex = 22;
             this.label23.Text = "Minimum Heart Rate";
-            // 
-            // pictureBox24
-            // 
-            this.pictureBox24.Location = new System.Drawing.Point(161, 180);
-            this.pictureBox24.Name = "pictureBox24";
-            this.pictureBox24.Size = new System.Drawing.Size(52, 53);
-            this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox24.TabIndex = 21;
-            this.pictureBox24.TabStop = false;
             // 
             // label24
             // 
@@ -1405,7 +1121,7 @@
             // tabPage5
             // 
             this.tabPage5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.tabPage5.Controls.Add(this.panel1);
+            this.tabPage5.Controls.Add(this.graph_index_panel);
             this.tabPage5.Controls.Add(this.zedGraphControl1);
             this.tabPage5.Location = new System.Drawing.Point(4, 22);
             this.tabPage5.Name = "tabPage5";
@@ -1414,6 +1130,98 @@
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "Graph";
             this.tabPage5.UseVisualStyleBackColor = true;
+            // 
+            // graph_index_panel
+            // 
+            this.graph_index_panel.Controls.Add(this.chkCadence);
+            this.graph_index_panel.Controls.Add(this.chkPower);
+            this.graph_index_panel.Controls.Add(this.chkAltitude);
+            this.graph_index_panel.Controls.Add(this.chkSpeed);
+            this.graph_index_panel.Controls.Add(this.chkHeartRate);
+            this.graph_index_panel.Location = new System.Drawing.Point(6, 547);
+            this.graph_index_panel.Name = "graph_index_panel";
+            this.graph_index_panel.Size = new System.Drawing.Size(958, 62);
+            this.graph_index_panel.TabIndex = 1;
+            // 
+            // chkCadence
+            // 
+            this.chkCadence.AutoSize = true;
+            this.chkCadence.Checked = true;
+            this.chkCadence.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkCadence.Location = new System.Drawing.Point(414, 22);
+            this.chkCadence.Name = "chkCadence";
+            this.chkCadence.Size = new System.Drawing.Size(69, 17);
+            this.chkCadence.TabIndex = 4;
+            this.chkCadence.Text = "Cadence";
+            this.chkCadence.UseVisualStyleBackColor = true;
+            this.chkCadence.CheckedChanged += new System.EventHandler(this.chkCadence_CheckedChanged);
+            // 
+            // chkPower
+            // 
+            this.chkPower.AutoSize = true;
+            this.chkPower.Checked = true;
+            this.chkPower.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkPower.Location = new System.Drawing.Point(325, 22);
+            this.chkPower.Name = "chkPower";
+            this.chkPower.Size = new System.Drawing.Size(56, 17);
+            this.chkPower.TabIndex = 3;
+            this.chkPower.Text = "Power";
+            this.chkPower.UseVisualStyleBackColor = true;
+            this.chkPower.CheckedChanged += new System.EventHandler(this.chkPower_CheckedChanged);
+            // 
+            // chkAltitude
+            // 
+            this.chkAltitude.AutoSize = true;
+            this.chkAltitude.Checked = true;
+            this.chkAltitude.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkAltitude.Location = new System.Drawing.Point(243, 22);
+            this.chkAltitude.Name = "chkAltitude";
+            this.chkAltitude.Size = new System.Drawing.Size(61, 17);
+            this.chkAltitude.TabIndex = 2;
+            this.chkAltitude.Text = "Altitude";
+            this.chkAltitude.UseVisualStyleBackColor = true;
+            this.chkAltitude.CheckedChanged += new System.EventHandler(this.chkAltitude_CheckedChanged);
+            // 
+            // chkSpeed
+            // 
+            this.chkSpeed.AutoSize = true;
+            this.chkSpeed.Checked = true;
+            this.chkSpeed.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkSpeed.Location = new System.Drawing.Point(136, 22);
+            this.chkSpeed.Name = "chkSpeed";
+            this.chkSpeed.Size = new System.Drawing.Size(57, 17);
+            this.chkSpeed.TabIndex = 1;
+            this.chkSpeed.Text = "Speed";
+            this.chkSpeed.UseVisualStyleBackColor = true;
+            this.chkSpeed.CheckedChanged += new System.EventHandler(this.chkSpeed_CheckedChanged);
+            // 
+            // chkHeartRate
+            // 
+            this.chkHeartRate.AutoSize = true;
+            this.chkHeartRate.Checked = true;
+            this.chkHeartRate.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkHeartRate.Location = new System.Drawing.Point(29, 22);
+            this.chkHeartRate.Name = "chkHeartRate";
+            this.chkHeartRate.Size = new System.Drawing.Size(78, 17);
+            this.chkHeartRate.TabIndex = 0;
+            this.chkHeartRate.Text = "Heart Rate";
+            this.chkHeartRate.UseVisualStyleBackColor = true;
+            this.chkHeartRate.CheckedChanged += new System.EventHandler(this.chkHeartRate_CheckedChanged);
+            // 
+            // zedGraphControl1
+            // 
+            this.zedGraphControl1.Location = new System.Drawing.Point(6, 6);
+            this.zedGraphControl1.Name = "zedGraphControl1";
+            this.zedGraphControl1.ScrollGrace = 0D;
+            this.zedGraphControl1.ScrollMaxX = 0D;
+            this.zedGraphControl1.ScrollMaxY = 0D;
+            this.zedGraphControl1.ScrollMaxY2 = 0D;
+            this.zedGraphControl1.ScrollMinX = 0D;
+            this.zedGraphControl1.ScrollMinY = 0D;
+            this.zedGraphControl1.ScrollMinY2 = 0D;
+            this.zedGraphControl1.Size = new System.Drawing.Size(958, 527);
+            this.zedGraphControl1.TabIndex = 0;
+            this.zedGraphControl1.UseExtendedPrintDialog = true;
             // 
             // materialTabSelector1
             // 
@@ -1439,27 +1247,304 @@
             this.materialRaisedButton1.UseVisualStyleBackColor = true;
             this.materialRaisedButton1.Click += new System.EventHandler(this.materialRaisedButton1_Click);
             // 
-            // zedGraphControl1
+            // pictureBox18
             // 
-            this.zedGraphControl1.Location = new System.Drawing.Point(6, 41);
-            this.zedGraphControl1.Name = "zedGraphControl1";
-            this.zedGraphControl1.ScrollGrace = 0D;
-            this.zedGraphControl1.ScrollMaxX = 0D;
-            this.zedGraphControl1.ScrollMaxY = 0D;
-            this.zedGraphControl1.ScrollMaxY2 = 0D;
-            this.zedGraphControl1.ScrollMinX = 0D;
-            this.zedGraphControl1.ScrollMinY = 0D;
-            this.zedGraphControl1.ScrollMinY2 = 0D;
-            this.zedGraphControl1.Size = new System.Drawing.Size(958, 486);
-            this.zedGraphControl1.TabIndex = 0;
-            this.zedGraphControl1.UseExtendedPrintDialog = true;
+            this.pictureBox18.Image = global::CyclingDataAnalysis.Properties.Resources.start_delay;
+            this.pictureBox18.Location = new System.Drawing.Point(447, 443);
+            this.pictureBox18.Name = "pictureBox18";
+            this.pictureBox18.Size = new System.Drawing.Size(52, 53);
+            this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox18.TabIndex = 43;
+            this.pictureBox18.TabStop = false;
             // 
-            // panel1
+            // pictureBox19
             // 
-            this.panel1.Location = new System.Drawing.Point(6, 547);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(958, 62);
-            this.panel1.TabIndex = 1;
+            this.pictureBox19.Image = global::CyclingDataAnalysis.Properties.Resources.rest_hr;
+            this.pictureBox19.Location = new System.Drawing.Point(447, 307);
+            this.pictureBox19.Name = "pictureBox19";
+            this.pictureBox19.Size = new System.Drawing.Size(52, 53);
+            this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox19.TabIndex = 42;
+            this.pictureBox19.TabStop = false;
+            // 
+            // pictureBox20
+            // 
+            this.pictureBox20.Image = global::CyclingDataAnalysis.Properties.Resources.max_hr;
+            this.pictureBox20.Location = new System.Drawing.Point(447, 164);
+            this.pictureBox20.Name = "pictureBox20";
+            this.pictureBox20.Size = new System.Drawing.Size(52, 53);
+            this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox20.TabIndex = 41;
+            this.pictureBox20.TabStop = false;
+            // 
+            // pictureBox21
+            // 
+            this.pictureBox21.Image = global::CyclingDataAnalysis.Properties.Resources.vo2;
+            this.pictureBox21.Location = new System.Drawing.Point(447, 36);
+            this.pictureBox21.Name = "pictureBox21";
+            this.pictureBox21.Size = new System.Drawing.Size(52, 53);
+            this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox21.TabIndex = 35;
+            this.pictureBox21.TabStop = false;
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Location = new System.Drawing.Point(797, 443);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(52, 53);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox9.TabIndex = 27;
+            this.pictureBox9.TabStop = false;
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Image = global::CyclingDataAnalysis.Properties.Resources.smode;
+            this.pictureBox8.Location = new System.Drawing.Point(797, 307);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(52, 53);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox8.TabIndex = 26;
+            this.pictureBox8.TabStop = false;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = global::CyclingDataAnalysis.Properties.Resources.date;
+            this.pictureBox7.Location = new System.Drawing.Point(797, 164);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(52, 53);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox7.TabIndex = 25;
+            this.pictureBox7.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = global::CyclingDataAnalysis.Properties.Resources.monitor;
+            this.pictureBox6.Location = new System.Drawing.Point(797, 36);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(52, 53);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox6.TabIndex = 24;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::CyclingDataAnalysis.Properties.Resources.weight;
+            this.pictureBox5.Location = new System.Drawing.Point(107, 443);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(52, 53);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 23;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::CyclingDataAnalysis.Properties.Resources.start_time;
+            this.pictureBox4.Location = new System.Drawing.Point(107, 307);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(52, 53);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 22;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::CyclingDataAnalysis.Properties.Resources.length;
+            this.pictureBox3.Location = new System.Drawing.Point(107, 164);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(52, 53);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 21;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::CyclingDataAnalysis.Properties.Resources.version;
+            this.pictureBox1.Location = new System.Drawing.Point(107, 36);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(52, 53);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox15
+            // 
+            this.pictureBox15.Image = global::CyclingDataAnalysis.Properties.Resources.hr_cc;
+            this.pictureBox15.Location = new System.Drawing.Point(781, 393);
+            this.pictureBox15.Name = "pictureBox15";
+            this.pictureBox15.Size = new System.Drawing.Size(52, 53);
+            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox15.TabIndex = 34;
+            this.pictureBox15.TabStop = false;
+            // 
+            // pictureBox16
+            // 
+            this.pictureBox16.Image = global::CyclingDataAnalysis.Properties.Resources.altitude;
+            this.pictureBox16.Location = new System.Drawing.Point(781, 76);
+            this.pictureBox16.Name = "pictureBox16";
+            this.pictureBox16.Size = new System.Drawing.Size(52, 53);
+            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox16.TabIndex = 32;
+            this.pictureBox16.TabStop = false;
+            // 
+            // pictureBox17
+            // 
+            this.pictureBox17.Image = global::CyclingDataAnalysis.Properties.Resources.power_balance;
+            this.pictureBox17.Location = new System.Drawing.Point(781, 238);
+            this.pictureBox17.Name = "pictureBox17";
+            this.pictureBox17.Size = new System.Drawing.Size(52, 53);
+            this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox17.TabIndex = 30;
+            this.pictureBox17.TabStop = false;
+            // 
+            // pictureBox12
+            // 
+            this.pictureBox12.Image = global::CyclingDataAnalysis.Properties.Resources.unit;
+            this.pictureBox12.Location = new System.Drawing.Point(459, 393);
+            this.pictureBox12.Name = "pictureBox12";
+            this.pictureBox12.Size = new System.Drawing.Size(52, 53);
+            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox12.TabIndex = 25;
+            this.pictureBox12.TabStop = false;
+            // 
+            // pictureBox13
+            // 
+            this.pictureBox13.Image = global::CyclingDataAnalysis.Properties.Resources.cadence;
+            this.pictureBox13.Location = new System.Drawing.Point(456, 76);
+            this.pictureBox13.Name = "pictureBox13";
+            this.pictureBox13.Size = new System.Drawing.Size(52, 53);
+            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox13.TabIndex = 23;
+            this.pictureBox13.TabStop = false;
+            // 
+            // pictureBox14
+            // 
+            this.pictureBox14.Image = global::CyclingDataAnalysis.Properties.Resources.power_index;
+            this.pictureBox14.Location = new System.Drawing.Point(459, 238);
+            this.pictureBox14.Name = "pictureBox14";
+            this.pictureBox14.Size = new System.Drawing.Size(52, 53);
+            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox14.TabIndex = 21;
+            this.pictureBox14.TabStop = false;
+            // 
+            // pictureBox11
+            // 
+            this.pictureBox11.Image = global::CyclingDataAnalysis.Properties.Resources.air_pressure;
+            this.pictureBox11.Location = new System.Drawing.Point(126, 393);
+            this.pictureBox11.Name = "pictureBox11";
+            this.pictureBox11.Size = new System.Drawing.Size(52, 53);
+            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox11.TabIndex = 16;
+            this.pictureBox11.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::CyclingDataAnalysis.Properties.Resources.speed;
+            this.pictureBox2.Location = new System.Drawing.Point(126, 76);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(52, 53);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 14;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.Image = global::CyclingDataAnalysis.Properties.Resources.power;
+            this.pictureBox10.Location = new System.Drawing.Point(126, 238);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(52, 53);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox10.TabIndex = 11;
+            this.pictureBox10.TabStop = false;
+            // 
+            // pictureBox31
+            // 
+            this.pictureBox31.Location = new System.Drawing.Point(469, 487);
+            this.pictureBox31.Name = "pictureBox31";
+            this.pictureBox31.Size = new System.Drawing.Size(52, 53);
+            this.pictureBox31.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox31.TabIndex = 46;
+            this.pictureBox31.TabStop = false;
+            // 
+            // pictureBox28
+            // 
+            this.pictureBox28.Location = new System.Drawing.Point(786, 335);
+            this.pictureBox28.Name = "pictureBox28";
+            this.pictureBox28.Size = new System.Drawing.Size(52, 53);
+            this.pictureBox28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox28.TabIndex = 43;
+            this.pictureBox28.TabStop = false;
+            // 
+            // pictureBox29
+            // 
+            this.pictureBox29.Location = new System.Drawing.Point(786, 18);
+            this.pictureBox29.Name = "pictureBox29";
+            this.pictureBox29.Size = new System.Drawing.Size(52, 53);
+            this.pictureBox29.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox29.TabIndex = 41;
+            this.pictureBox29.TabStop = false;
+            // 
+            // pictureBox30
+            // 
+            this.pictureBox30.Location = new System.Drawing.Point(786, 180);
+            this.pictureBox30.Name = "pictureBox30";
+            this.pictureBox30.Size = new System.Drawing.Size(52, 53);
+            this.pictureBox30.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox30.TabIndex = 39;
+            this.pictureBox30.TabStop = false;
+            // 
+            // pictureBox25
+            // 
+            this.pictureBox25.Location = new System.Drawing.Point(468, 335);
+            this.pictureBox25.Name = "pictureBox25";
+            this.pictureBox25.Size = new System.Drawing.Size(52, 53);
+            this.pictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox25.TabIndex = 34;
+            this.pictureBox25.TabStop = false;
+            // 
+            // pictureBox26
+            // 
+            this.pictureBox26.Location = new System.Drawing.Point(469, 18);
+            this.pictureBox26.Name = "pictureBox26";
+            this.pictureBox26.Size = new System.Drawing.Size(52, 53);
+            this.pictureBox26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox26.TabIndex = 32;
+            this.pictureBox26.TabStop = false;
+            // 
+            // pictureBox27
+            // 
+            this.pictureBox27.Location = new System.Drawing.Point(468, 180);
+            this.pictureBox27.Name = "pictureBox27";
+            this.pictureBox27.Size = new System.Drawing.Size(52, 53);
+            this.pictureBox27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox27.TabIndex = 30;
+            this.pictureBox27.TabStop = false;
+            // 
+            // pictureBox22
+            // 
+            this.pictureBox22.Location = new System.Drawing.Point(161, 335);
+            this.pictureBox22.Name = "pictureBox22";
+            this.pictureBox22.Size = new System.Drawing.Size(52, 53);
+            this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox22.TabIndex = 25;
+            this.pictureBox22.TabStop = false;
+            // 
+            // pictureBox23
+            // 
+            this.pictureBox23.Location = new System.Drawing.Point(161, 18);
+            this.pictureBox23.Name = "pictureBox23";
+            this.pictureBox23.Size = new System.Drawing.Size(52, 53);
+            this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox23.TabIndex = 23;
+            this.pictureBox23.TabStop = false;
+            // 
+            // pictureBox24
+            // 
+            this.pictureBox24.Location = new System.Drawing.Point(161, 180);
+            this.pictureBox24.Name = "pictureBox24";
+            this.pictureBox24.Size = new System.Drawing.Size(52, 53);
+            this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox24.TabIndex = 21;
+            this.pictureBox24.TabStop = false;
             // 
             // Form1
             // 
@@ -1478,6 +1563,15 @@
             this.materialTabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
+            this.tabPage2.ResumeLayout(false);
+            this.tabPage2.PerformLayout();
+            this.tabPage3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.tabPage4.ResumeLayout(false);
+            this.tabPage4.PerformLayout();
+            this.tabPage5.ResumeLayout(false);
+            this.graph_index_panel.ResumeLayout(false);
+            this.graph_index_panel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
@@ -1490,8 +1584,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.tabPage2.ResumeLayout(false);
-            this.tabPage2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
@@ -1501,10 +1593,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            this.tabPage3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            this.tabPage4.ResumeLayout(false);
-            this.tabPage4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox31)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).EndInit();
@@ -1515,7 +1603,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
-            this.tabPage5.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1635,8 +1722,13 @@
         private System.Windows.Forms.PictureBox pictureBox31;
         private System.Windows.Forms.RadioButton radioEuroUnit;
         private System.Windows.Forms.RadioButton radioUSUnit;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel graph_index_panel;
         private ZedGraph.ZedGraphControl zedGraphControl1;
+        private System.Windows.Forms.CheckBox chkCadence;
+        private System.Windows.Forms.CheckBox chkPower;
+        private System.Windows.Forms.CheckBox chkAltitude;
+        private System.Windows.Forms.CheckBox chkSpeed;
+        private System.Windows.Forms.CheckBox chkHeartRate;
     }
 }
 

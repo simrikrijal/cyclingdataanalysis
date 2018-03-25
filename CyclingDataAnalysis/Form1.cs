@@ -106,7 +106,7 @@ namespace CyclingDataAnalysis
             skinManager.ColorScheme = new ColorScheme(Primary.BlueGrey800, Primary.BlueGrey900, Primary.BlueGrey500,
                 Accent.LightBlue200, TextShade.WHITE);
 
-            // graph_index_panel.Visible = false;
+            graph_index_panel.Visible = false;
             dataGridView1.Columns[6].Visible = false;
             dataGridView1.Columns[7].Visible = false;
             dataGridView1.Columns[8].Visible = false;
@@ -166,6 +166,8 @@ namespace CyclingDataAnalysis
                 int count = 0;
 
                 readFile(filename);
+                loadGraph();
+                graph_index_panel.Visible = true;
             }
         }
 
@@ -771,8 +773,6 @@ namespace CyclingDataAnalysis
             lblMaximumAltitude.Text = System.Math.Round(maxAltitudeMile) + " Ft";
             lblTotalDistance.Text = totalDistanceMiles.ToString() + " miles";
         }
-
-
 
         private void chkHeartRate_CheckedChanged(object sender, EventArgs e)
         {
