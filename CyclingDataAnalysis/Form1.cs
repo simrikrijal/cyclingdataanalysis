@@ -20,20 +20,6 @@ namespace CyclingDataAnalysis
     {
 
         string fileData, filename;
-        //declaration of variable to calculate HRM data
-        //private int seconds;
-        //private int counter;
-        //private int NumberOfLines;
-        //private string heart;
-        //private string speed;
-        //private string cadence;
-        //private string altitude;
-        //private string power;
-        //private string powerbal;
-        //private string line;
-        //private string HRM;
-        //private double[] heartgrapharr;
-        DateTime myDateTime;
         string lengthValue, startTimeValue, intervalValue;
 
         //TimeSpan[] totalTime = new TimeSpan[500000]; 
@@ -119,6 +105,11 @@ namespace CyclingDataAnalysis
             skinManager.Theme = MaterialSkinManager.Themes.LIGHT;
             skinManager.ColorScheme = new ColorScheme(Primary.BlueGrey800, Primary.BlueGrey900, Primary.BlueGrey500,
                 Accent.LightBlue200, TextShade.WHITE);
+
+            // graph_index_panel.Visible = false;
+            dataGridView1.Columns[6].Visible = false;
+            dataGridView1.Columns[7].Visible = false;
+            dataGridView1.Columns[8].Visible = false;
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -144,6 +135,22 @@ namespace CyclingDataAnalysis
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void radioUSUnit_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioUSUnit.Checked)
+            {
+                unit_data_us();
+            }
+        }
+
+        private void radioEuroUnit_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioEuroUnit.Checked)
+            {
+                unit_data_euro();
+            }
         }
 
         private void materialRaisedButton1_Click(object sender, EventArgs e)
@@ -728,13 +735,41 @@ namespace CyclingDataAnalysis
             char[] smode_data = smode.ToCharArray();
             if (smode_data[7] == '1')
             {
-                // unit_data_us();
+                unit_data_us();
             }
             else
             {
-                // unit_data_euro();
+                unit_data_euro();
             }
 
+        }
+
+        public void unit_data_euro()
+        {
+            lblAverageSpeed.Text = System.Math.Round(averageSpeed, 2) + " Km/h";
+            lblMaximumSpeed.Text = maxSpeed.ToString() + " Km/h";
+            lblAverageHeartRate.Text = System.Math.Round(averageHeartRate, 2) + " bpm";
+            lblMaximumHeartRate.Text = maxHeartRate.ToString() + " bpm";
+            lblMinimumHeartRate.Text = minHeartRate.ToString() + " bpm";
+            lblAveragePower.Text = System.Math.Round(averagePower, 2) + " W";
+            lblMaximumPower.Text = maxPower.ToString() + " W";
+            lblAverageAltitude.Text = System.Math.Round(averageAltitude, 2) + " m";
+            lblMaximumAltitude.Text = maxAltitude.ToString() + " m";
+            lblTotalDistance.Text = totalDistance.ToString() + " Km";
+        }
+
+        public void unit_data_us()
+        {
+            lblAverageSpeed.Text = System.Math.Round(averageSpeedMiles, 2) + " miles";
+            lblMaximumSpeed.Text = maxSpeedMiles.ToString() + " miles";
+            lblAverageHeartRate.Text = System.Math.Round(averageHeartRate, 2) + " bpm";
+            lblMaximumHeartRate.Text = maxHeartRate.ToString() + " bpm";
+            lblMinimumHeartRate.Text = minHeartRate.ToString() + " bpm";
+            lblAveragePower.Text = System.Math.Round(averagePower, 2) + " W";
+            lblMaximumPower.Text = maxPower.ToString() + " W";
+            lblAverageAltitude.Text = System.Math.Round(averageAltitudeMile, 2) + " Ft";
+            lblMaximumAltitude.Text = System.Math.Round(maxAltitudeMile) + " Ft";
+            lblTotalDistance.Text = totalDistanceMiles.ToString() + " miles";
         }
     }
 }
