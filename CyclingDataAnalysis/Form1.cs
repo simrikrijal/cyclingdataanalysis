@@ -866,10 +866,8 @@ namespace CyclingDataAnalysis
 
         private void zedGraph()
         {
-            // start
 
             GraphPane graphValue = zedGraphControl1.GraphPane;
-            // zedGraphControl1.Invalidate();
 
             graphValue.CurveList.Clear();
             graphValue.GraphObjList.Clear();
@@ -878,7 +876,6 @@ namespace CyclingDataAnalysis
             // Set the Titles
             graphValue.Title.Text = "Data Analysis Software";
             graphValue.XAxis.Title.Text = "Time (HH:mm:ss)";
-            // graphValue.YAxis.Title.Text = "Heart Rate";
 
             graphValue.AddYAxis("Heart Rate");
             graphValue.AddYAxis("Speed");
@@ -887,27 +884,22 @@ namespace CyclingDataAnalysis
             graphValue.AddYAxis("Cadence");
 
             // Heart Rate Y AXIS
-            Console.WriteLine("----...>>" + graphValue.YAxisList[0].Title.Text);
             graphValue.YAxisList[0].Scale.Min = minHeartRate;
             graphValue.YAxisList[0].Scale.Max = maxHeartRate;
 
             // Speed Y AXIS
-            Console.WriteLine("----...>>" + graphValue.YAxisList[1].Title.Text);
             graphValue.YAxisList[1].Scale.Min = 0;
             graphValue.YAxisList[1].Scale.Max = maxSpeed;
 
             // Altitude Y AXIS
-            Console.WriteLine("----...>>" + graphValue.YAxisList[2].Title.Text);
             graphValue.YAxisList[2].Scale.Min = 0;
             graphValue.YAxisList[2].Scale.Max = maxAltitude;
 
             // Power Y AXIS
-            Console.WriteLine("----...>>" + graphValue.YAxisList[3].Title.Text);
             graphValue.YAxisList[3].Scale.Min = 0;
             graphValue.YAxisList[3].Scale.Max = maxPower;
 
             // Cadence Y AXIS
-            Console.WriteLine("----...>>" + graphValue.YAxisList[3].Title.Text);
             graphValue.YAxisList[4].Scale.Min = 0;
             graphValue.YAxisList[4].Scale.Max = 5000;
 
