@@ -384,8 +384,8 @@ namespace CyclingDataAnalysis
                 else if (speed == '0')
                 {
                     lblsmSpeed.Text = "Off";
-                    // chkSpeed.Checked = false;
-                    // chkSpeed.Enabled = false;
+                    chkSpeed.Checked = false;
+                    chkSpeed.Enabled = false;
                 }
 
                 if (cadence == '1') // for cadence
@@ -446,15 +446,15 @@ namespace CyclingDataAnalysis
                 {
                     lblsmUs.Text = "US Unit";
                     dataGridView1.Columns[2].HeaderCell.Value = "Speed (US Unit)";
-                    // radioUSUnit.Checked = true;
-                    // radioEuroUnit.Checked = false;
+                    radioUSUnit.Checked = true;
+                    radioEuroUnit.Checked = false;
                 }
                 else if (usEuroUnit == '0')
                 {
                     lblsmUs.Text = "Euro Unit";
                     dataGridView1.Columns[2].HeaderCell.Value = "Speed (Euro Unit)";
-                    // radioEuroUnit.Checked = true;
-                    // radioUSUnit.Checked = false;
+                    radioEuroUnit.Checked = true;
+                    radioUSUnit.Checked = false;
                 }
 
                 if (airPressure == '1') // for Air Pressure

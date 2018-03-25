@@ -103,6 +103,25 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="License-LGPL.txt" />
+    <None Include="Resources\total.png" />
+    <None Include="Resources\minimum_heart_rate.png" />
+    <None Include="Resources\maxium_heart_rate.png" />
+    <None Include="Resources\maximum_speed.png" />
+    <None Include="Resources\maximum_power.png" />
+    <None Include="Resources\maximum_altitude.png" />
+    <None Include="Resources\avg_power.png" />
+    <None Include="Resources\avg_heart_rate.png" />
+    <None Include="Resources\avg_altitude.png" />
+    <None Include="Resources\average_speed.png" />
+    <None Include="Resources\unit.png" />
+    <None Include="Resources\speed1.png" />
+    <None Include="Resources\power_index.png" />
+    <None Include="Resources\power_balance.png" />
+    <None Include="Resources\power.png" />
+    <None Include="Resources\hr_cc.png" />
+    <None Include="Resources\cadence.png" />
+    <None Include="Resources\altitude.png" />
+    <None Include="Resources\air_pressure.png" />
     <None Include="Resources\weight.png" />
     <None Include="Resources\vo2.png" />
     <None Include="Resources\version.png" />
