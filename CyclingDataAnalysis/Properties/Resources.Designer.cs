@@ -83,6 +83,46 @@ namespace CyclingDataAnalysis.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap average_speed {
+            get {
+                object obj = ResourceManager.GetObject("average_speed", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap avg_altitude {
+            get {
+                object obj = ResourceManager.GetObject("avg_altitude", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap avg_heart_rate {
+            get {
+                object obj = ResourceManager.GetObject("avg_heart_rate", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap avg_power {
+            get {
+                object obj = ResourceManager.GetObject("avg_power", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cadence {
             get {
                 object obj = ResourceManager.GetObject("cadence", resourceCulture);
@@ -126,6 +166,56 @@ namespace CyclingDataAnalysis.Properties {
         internal static System.Drawing.Bitmap max_hr {
             get {
                 object obj = ResourceManager.GetObject("max_hr", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap maximum_altitude {
+            get {
+                object obj = ResourceManager.GetObject("maximum_altitude", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap maximum_power {
+            get {
+                object obj = ResourceManager.GetObject("maximum_power", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap maximum_speed {
+            get {
+                object obj = ResourceManager.GetObject("maximum_speed", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap maxium_heart_rate {
+            get {
+                object obj = ResourceManager.GetObject("maxium_heart_rate", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap minimum_heart_rate {
+            get {
+                object obj = ResourceManager.GetObject("minimum_heart_rate", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -226,6 +316,16 @@ namespace CyclingDataAnalysis.Properties {
         internal static System.Drawing.Bitmap start_time {
             get {
                 object obj = ResourceManager.GetObject("start_time", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap total {
+            get {
+                object obj = ResourceManager.GetObject("total", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

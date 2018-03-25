@@ -523,31 +523,31 @@
             this.tabPage2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.tabPage2.Controls.Add(this.label15);
             this.tabPage2.Controls.Add(this.lblSmHrcc);
-            this.tabPage2.Controls.Add(this.pictureBox15);
             this.tabPage2.Controls.Add(this.lblsmPwbal);
-            this.tabPage2.Controls.Add(this.pictureBox16);
             this.tabPage2.Controls.Add(this.label16);
-            this.tabPage2.Controls.Add(this.pictureBox17);
             this.tabPage2.Controls.Add(this.label17);
             this.tabPage2.Controls.Add(this.lblsmAltd);
             this.tabPage2.Controls.Add(this.label12);
             this.tabPage2.Controls.Add(this.lblsmUs);
-            this.tabPage2.Controls.Add(this.pictureBox12);
             this.tabPage2.Controls.Add(this.lblsmPowerIndex);
-            this.tabPage2.Controls.Add(this.pictureBox13);
             this.tabPage2.Controls.Add(this.label13);
-            this.tabPage2.Controls.Add(this.pictureBox14);
             this.tabPage2.Controls.Add(this.label14);
             this.tabPage2.Controls.Add(this.lblsmCad);
             this.tabPage2.Controls.Add(this.label11);
             this.tabPage2.Controls.Add(this.lblsmAir);
-            this.tabPage2.Controls.Add(this.pictureBox11);
             this.tabPage2.Controls.Add(this.lblsmPower);
-            this.tabPage2.Controls.Add(this.pictureBox2);
             this.tabPage2.Controls.Add(this.label10);
-            this.tabPage2.Controls.Add(this.pictureBox10);
             this.tabPage2.Controls.Add(this.label9);
             this.tabPage2.Controls.Add(this.lblsmSpeed);
+            this.tabPage2.Controls.Add(this.pictureBox15);
+            this.tabPage2.Controls.Add(this.pictureBox16);
+            this.tabPage2.Controls.Add(this.pictureBox17);
+            this.tabPage2.Controls.Add(this.pictureBox12);
+            this.tabPage2.Controls.Add(this.pictureBox13);
+            this.tabPage2.Controls.Add(this.pictureBox14);
+            this.tabPage2.Controls.Add(this.pictureBox11);
+            this.tabPage2.Controls.Add(this.pictureBox2);
+            this.tabPage2.Controls.Add(this.pictureBox10);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
@@ -1458,6 +1458,7 @@
             // 
             // pictureBox31
             // 
+            this.pictureBox31.Image = global::CyclingDataAnalysis.Properties.Resources.total;
             this.pictureBox31.Location = new System.Drawing.Point(469, 487);
             this.pictureBox31.Name = "pictureBox31";
             this.pictureBox31.Size = new System.Drawing.Size(52, 53);
@@ -1467,6 +1468,7 @@
             // 
             // pictureBox28
             // 
+            this.pictureBox28.Image = global::CyclingDataAnalysis.Properties.Resources.maximum_altitude;
             this.pictureBox28.Location = new System.Drawing.Point(786, 335);
             this.pictureBox28.Name = "pictureBox28";
             this.pictureBox28.Size = new System.Drawing.Size(52, 53);
@@ -1476,6 +1478,7 @@
             // 
             // pictureBox29
             // 
+            this.pictureBox29.Image = global::CyclingDataAnalysis.Properties.Resources.avg_heart_rate;
             this.pictureBox29.Location = new System.Drawing.Point(786, 18);
             this.pictureBox29.Name = "pictureBox29";
             this.pictureBox29.Size = new System.Drawing.Size(52, 53);
@@ -1485,6 +1488,7 @@
             // 
             // pictureBox30
             // 
+            this.pictureBox30.Image = global::CyclingDataAnalysis.Properties.Resources.avg_power;
             this.pictureBox30.Location = new System.Drawing.Point(786, 180);
             this.pictureBox30.Name = "pictureBox30";
             this.pictureBox30.Size = new System.Drawing.Size(52, 53);
@@ -1494,6 +1498,7 @@
             // 
             // pictureBox25
             // 
+            this.pictureBox25.Image = global::CyclingDataAnalysis.Properties.Resources.altitude;
             this.pictureBox25.Location = new System.Drawing.Point(468, 335);
             this.pictureBox25.Name = "pictureBox25";
             this.pictureBox25.Size = new System.Drawing.Size(52, 53);
@@ -1503,6 +1508,7 @@
             // 
             // pictureBox26
             // 
+            this.pictureBox26.Image = global::CyclingDataAnalysis.Properties.Resources.maximum_speed;
             this.pictureBox26.Location = new System.Drawing.Point(469, 18);
             this.pictureBox26.Name = "pictureBox26";
             this.pictureBox26.Size = new System.Drawing.Size(52, 53);
@@ -1512,6 +1518,7 @@
             // 
             // pictureBox27
             // 
+            this.pictureBox27.Image = global::CyclingDataAnalysis.Properties.Resources.maxium_heart_rate;
             this.pictureBox27.Location = new System.Drawing.Point(468, 180);
             this.pictureBox27.Name = "pictureBox27";
             this.pictureBox27.Size = new System.Drawing.Size(52, 53);
@@ -1521,6 +1528,7 @@
             // 
             // pictureBox22
             // 
+            this.pictureBox22.Image = global::CyclingDataAnalysis.Properties.Resources.maximum_power;
             this.pictureBox22.Location = new System.Drawing.Point(161, 335);
             this.pictureBox22.Name = "pictureBox22";
             this.pictureBox22.Size = new System.Drawing.Size(52, 53);
@@ -1530,6 +1538,7 @@
             // 
             // pictureBox23
             // 
+            this.pictureBox23.Image = global::CyclingDataAnalysis.Properties.Resources.average_speed;
             this.pictureBox23.Location = new System.Drawing.Point(161, 18);
             this.pictureBox23.Name = "pictureBox23";
             this.pictureBox23.Size = new System.Drawing.Size(52, 53);
@@ -1539,6 +1548,7 @@
             // 
             // pictureBox24
             // 
+            this.pictureBox24.Image = global::CyclingDataAnalysis.Properties.Resources.minimum_heart_rate;
             this.pictureBox24.Location = new System.Drawing.Point(161, 180);
             this.pictureBox24.Name = "pictureBox24";
             this.pictureBox24.Size = new System.Drawing.Size(52, 53);
