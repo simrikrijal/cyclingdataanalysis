@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.materialTabControl1 = new MaterialSkin.Controls.MaterialTabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.label18 = new System.Windows.Forms.Label();
@@ -106,6 +107,8 @@
             this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.radioEuroUnit = new System.Windows.Forms.RadioButton();
+            this.radioUSUnit = new System.Windows.Forms.RadioButton();
             this.lblTotalDistance = new System.Windows.Forms.TextBox();
             this.label31 = new System.Windows.Forms.Label();
             this.pictureBox31 = new System.Windows.Forms.PictureBox();
@@ -139,8 +142,8 @@
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.materialTabSelector1 = new MaterialSkin.Controls.MaterialTabSelector();
             this.materialRaisedButton1 = new MaterialSkin.Controls.MaterialRaisedButton();
-            this.radioUSUnit = new System.Windows.Forms.RadioButton();
-            this.radioEuroUnit = new System.Windows.Forms.RadioButton();
+            this.zedGraphControl1 = new ZedGraph.ZedGraphControl();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.materialTabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
@@ -178,6 +181,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
+            this.tabPage5.SuspendLayout();
             this.SuspendLayout();
             // 
             // materialTabControl1
@@ -275,7 +279,7 @@
             // 
             // pictureBox18
             // 
-            this.pictureBox18.Image = global::CyclingDataAnalysis.Properties.Resources.start_time;
+            this.pictureBox18.Image = global::CyclingDataAnalysis.Properties.Resources.start_delay;
             this.pictureBox18.Location = new System.Drawing.Point(447, 443);
             this.pictureBox18.Name = "pictureBox18";
             this.pictureBox18.Size = new System.Drawing.Size(52, 53);
@@ -285,7 +289,7 @@
             // 
             // pictureBox19
             // 
-            this.pictureBox19.Image = global::CyclingDataAnalysis.Properties.Resources.start_time;
+            this.pictureBox19.Image = global::CyclingDataAnalysis.Properties.Resources.rest_hr;
             this.pictureBox19.Location = new System.Drawing.Point(447, 307);
             this.pictureBox19.Name = "pictureBox19";
             this.pictureBox19.Size = new System.Drawing.Size(52, 53);
@@ -295,7 +299,7 @@
             // 
             // pictureBox20
             // 
-            this.pictureBox20.Image = global::CyclingDataAnalysis.Properties.Resources.start_time;
+            this.pictureBox20.Image = global::CyclingDataAnalysis.Properties.Resources.max_hr;
             this.pictureBox20.Location = new System.Drawing.Point(447, 164);
             this.pictureBox20.Name = "pictureBox20";
             this.pictureBox20.Size = new System.Drawing.Size(52, 53);
@@ -363,7 +367,7 @@
             // 
             // pictureBox21
             // 
-            this.pictureBox21.Image = global::CyclingDataAnalysis.Properties.Resources.start_time;
+            this.pictureBox21.Image = global::CyclingDataAnalysis.Properties.Resources.vo2;
             this.pictureBox21.Location = new System.Drawing.Point(447, 36);
             this.pictureBox21.Name = "pictureBox21";
             this.pictureBox21.Size = new System.Drawing.Size(52, 53);
@@ -443,7 +447,6 @@
             // 
             // pictureBox9
             // 
-            this.pictureBox9.Image = global::CyclingDataAnalysis.Properties.Resources.start_time;
             this.pictureBox9.Location = new System.Drawing.Point(797, 443);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(52, 53);
@@ -453,7 +456,7 @@
             // 
             // pictureBox8
             // 
-            this.pictureBox8.Image = global::CyclingDataAnalysis.Properties.Resources.start_time;
+            this.pictureBox8.Image = global::CyclingDataAnalysis.Properties.Resources.smode;
             this.pictureBox8.Location = new System.Drawing.Point(797, 307);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(52, 53);
@@ -463,7 +466,7 @@
             // 
             // pictureBox7
             // 
-            this.pictureBox7.Image = global::CyclingDataAnalysis.Properties.Resources.start_time;
+            this.pictureBox7.Image = global::CyclingDataAnalysis.Properties.Resources.date;
             this.pictureBox7.Location = new System.Drawing.Point(797, 164);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(52, 53);
@@ -473,7 +476,7 @@
             // 
             // pictureBox6
             // 
-            this.pictureBox6.Image = global::CyclingDataAnalysis.Properties.Resources.start_time;
+            this.pictureBox6.Image = global::CyclingDataAnalysis.Properties.Resources.monitor;
             this.pictureBox6.Location = new System.Drawing.Point(797, 36);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(52, 53);
@@ -483,7 +486,7 @@
             // 
             // pictureBox5
             // 
-            this.pictureBox5.Image = global::CyclingDataAnalysis.Properties.Resources.start_time;
+            this.pictureBox5.Image = global::CyclingDataAnalysis.Properties.Resources.weight;
             this.pictureBox5.Location = new System.Drawing.Point(107, 443);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(52, 53);
@@ -503,7 +506,7 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::CyclingDataAnalysis.Properties.Resources.start_time;
+            this.pictureBox3.Image = global::CyclingDataAnalysis.Properties.Resources.length;
             this.pictureBox3.Location = new System.Drawing.Point(107, 164);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(52, 53);
@@ -620,7 +623,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::CyclingDataAnalysis.Properties.Resources.start_time;
+            this.pictureBox1.Image = global::CyclingDataAnalysis.Properties.Resources.version;
             this.pictureBox1.Location = new System.Drawing.Point(107, 36);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(52, 53);
@@ -690,7 +693,6 @@
             // 
             // pictureBox15
             // 
-            this.pictureBox15.Image = global::CyclingDataAnalysis.Properties.Resources.start_time;
             this.pictureBox15.Location = new System.Drawing.Point(781, 393);
             this.pictureBox15.Name = "pictureBox15";
             this.pictureBox15.Size = new System.Drawing.Size(52, 53);
@@ -712,7 +714,6 @@
             // 
             // pictureBox16
             // 
-            this.pictureBox16.Image = global::CyclingDataAnalysis.Properties.Resources.start_time;
             this.pictureBox16.Location = new System.Drawing.Point(781, 76);
             this.pictureBox16.Name = "pictureBox16";
             this.pictureBox16.Size = new System.Drawing.Size(52, 53);
@@ -732,7 +733,6 @@
             // 
             // pictureBox17
             // 
-            this.pictureBox17.Image = global::CyclingDataAnalysis.Properties.Resources.start_time;
             this.pictureBox17.Location = new System.Drawing.Point(781, 238);
             this.pictureBox17.Name = "pictureBox17";
             this.pictureBox17.Size = new System.Drawing.Size(52, 53);
@@ -786,7 +786,6 @@
             // 
             // pictureBox12
             // 
-            this.pictureBox12.Image = global::CyclingDataAnalysis.Properties.Resources.start_time;
             this.pictureBox12.Location = new System.Drawing.Point(459, 393);
             this.pictureBox12.Name = "pictureBox12";
             this.pictureBox12.Size = new System.Drawing.Size(52, 53);
@@ -808,7 +807,6 @@
             // 
             // pictureBox13
             // 
-            this.pictureBox13.Image = global::CyclingDataAnalysis.Properties.Resources.start_time;
             this.pictureBox13.Location = new System.Drawing.Point(456, 76);
             this.pictureBox13.Name = "pictureBox13";
             this.pictureBox13.Size = new System.Drawing.Size(52, 53);
@@ -828,7 +826,6 @@
             // 
             // pictureBox14
             // 
-            this.pictureBox14.Image = global::CyclingDataAnalysis.Properties.Resources.start_time;
             this.pictureBox14.Location = new System.Drawing.Point(459, 238);
             this.pictureBox14.Name = "pictureBox14";
             this.pictureBox14.Size = new System.Drawing.Size(52, 53);
@@ -882,7 +879,6 @@
             // 
             // pictureBox11
             // 
-            this.pictureBox11.Image = global::CyclingDataAnalysis.Properties.Resources.start_time;
             this.pictureBox11.Location = new System.Drawing.Point(126, 393);
             this.pictureBox11.Name = "pictureBox11";
             this.pictureBox11.Size = new System.Drawing.Size(52, 53);
@@ -904,7 +900,6 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::CyclingDataAnalysis.Properties.Resources.start_time;
             this.pictureBox2.Location = new System.Drawing.Point(126, 76);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(52, 53);
@@ -924,7 +919,6 @@
             // 
             // pictureBox10
             // 
-            this.pictureBox10.Image = global::CyclingDataAnalysis.Properties.Resources.start_time;
             this.pictureBox10.Location = new System.Drawing.Point(126, 238);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(52, 53);
@@ -1073,6 +1067,30 @@
             this.tabPage4.UseVisualStyleBackColor = true;
             this.tabPage4.Click += new System.EventHandler(this.tabPage4_Click);
             // 
+            // radioEuroUnit
+            // 
+            this.radioEuroUnit.AutoSize = true;
+            this.radioEuroUnit.Location = new System.Drawing.Point(149, 574);
+            this.radioEuroUnit.Name = "radioEuroUnit";
+            this.radioEuroUnit.Size = new System.Drawing.Size(69, 17);
+            this.radioEuroUnit.TabIndex = 50;
+            this.radioEuroUnit.TabStop = true;
+            this.radioEuroUnit.Text = "Euro Unit";
+            this.radioEuroUnit.UseVisualStyleBackColor = true;
+            this.radioEuroUnit.CheckedChanged += new System.EventHandler(this.radioEuroUnit_CheckedChanged);
+            // 
+            // radioUSUnit
+            // 
+            this.radioUSUnit.AutoSize = true;
+            this.radioUSUnit.Location = new System.Drawing.Point(49, 574);
+            this.radioUSUnit.Name = "radioUSUnit";
+            this.radioUSUnit.Size = new System.Drawing.Size(62, 17);
+            this.radioUSUnit.TabIndex = 49;
+            this.radioUSUnit.TabStop = true;
+            this.radioUSUnit.Text = "US Unit";
+            this.radioUSUnit.UseVisualStyleBackColor = true;
+            this.radioUSUnit.CheckedChanged += new System.EventHandler(this.radioUSUnit_CheckedChanged);
+            // 
             // lblTotalDistance
             // 
             this.lblTotalDistance.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1098,7 +1116,6 @@
             // 
             // pictureBox31
             // 
-            this.pictureBox31.Image = global::CyclingDataAnalysis.Properties.Resources.start_time;
             this.pictureBox31.Location = new System.Drawing.Point(469, 487);
             this.pictureBox31.Name = "pictureBox31";
             this.pictureBox31.Size = new System.Drawing.Size(52, 53);
@@ -1130,7 +1147,6 @@
             // 
             // pictureBox28
             // 
-            this.pictureBox28.Image = global::CyclingDataAnalysis.Properties.Resources.start_time;
             this.pictureBox28.Location = new System.Drawing.Point(786, 335);
             this.pictureBox28.Name = "pictureBox28";
             this.pictureBox28.Size = new System.Drawing.Size(52, 53);
@@ -1152,7 +1168,6 @@
             // 
             // pictureBox29
             // 
-            this.pictureBox29.Image = global::CyclingDataAnalysis.Properties.Resources.start_time;
             this.pictureBox29.Location = new System.Drawing.Point(786, 18);
             this.pictureBox29.Name = "pictureBox29";
             this.pictureBox29.Size = new System.Drawing.Size(52, 53);
@@ -1172,7 +1187,6 @@
             // 
             // pictureBox30
             // 
-            this.pictureBox30.Image = global::CyclingDataAnalysis.Properties.Resources.start_time;
             this.pictureBox30.Location = new System.Drawing.Point(786, 180);
             this.pictureBox30.Name = "pictureBox30";
             this.pictureBox30.Size = new System.Drawing.Size(52, 53);
@@ -1226,7 +1240,6 @@
             // 
             // pictureBox25
             // 
-            this.pictureBox25.Image = global::CyclingDataAnalysis.Properties.Resources.start_time;
             this.pictureBox25.Location = new System.Drawing.Point(468, 335);
             this.pictureBox25.Name = "pictureBox25";
             this.pictureBox25.Size = new System.Drawing.Size(52, 53);
@@ -1248,7 +1261,6 @@
             // 
             // pictureBox26
             // 
-            this.pictureBox26.Image = global::CyclingDataAnalysis.Properties.Resources.start_time;
             this.pictureBox26.Location = new System.Drawing.Point(469, 18);
             this.pictureBox26.Name = "pictureBox26";
             this.pictureBox26.Size = new System.Drawing.Size(52, 53);
@@ -1268,7 +1280,6 @@
             // 
             // pictureBox27
             // 
-            this.pictureBox27.Image = global::CyclingDataAnalysis.Properties.Resources.start_time;
             this.pictureBox27.Location = new System.Drawing.Point(468, 180);
             this.pictureBox27.Name = "pictureBox27";
             this.pictureBox27.Size = new System.Drawing.Size(52, 53);
@@ -1322,7 +1333,6 @@
             // 
             // pictureBox22
             // 
-            this.pictureBox22.Image = global::CyclingDataAnalysis.Properties.Resources.start_time;
             this.pictureBox22.Location = new System.Drawing.Point(161, 335);
             this.pictureBox22.Name = "pictureBox22";
             this.pictureBox22.Size = new System.Drawing.Size(52, 53);
@@ -1344,7 +1354,6 @@
             // 
             // pictureBox23
             // 
-            this.pictureBox23.Image = global::CyclingDataAnalysis.Properties.Resources.start_time;
             this.pictureBox23.Location = new System.Drawing.Point(161, 18);
             this.pictureBox23.Name = "pictureBox23";
             this.pictureBox23.Size = new System.Drawing.Size(52, 53);
@@ -1364,7 +1373,6 @@
             // 
             // pictureBox24
             // 
-            this.pictureBox24.Image = global::CyclingDataAnalysis.Properties.Resources.start_time;
             this.pictureBox24.Location = new System.Drawing.Point(161, 180);
             this.pictureBox24.Name = "pictureBox24";
             this.pictureBox24.Size = new System.Drawing.Size(52, 53);
@@ -1397,6 +1405,8 @@
             // tabPage5
             // 
             this.tabPage5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.tabPage5.Controls.Add(this.panel1);
+            this.tabPage5.Controls.Add(this.zedGraphControl1);
             this.tabPage5.Location = new System.Drawing.Point(4, 22);
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
@@ -1429,29 +1439,27 @@
             this.materialRaisedButton1.UseVisualStyleBackColor = true;
             this.materialRaisedButton1.Click += new System.EventHandler(this.materialRaisedButton1_Click);
             // 
-            // radioUSUnit
+            // zedGraphControl1
             // 
-            this.radioUSUnit.AutoSize = true;
-            this.radioUSUnit.Location = new System.Drawing.Point(49, 574);
-            this.radioUSUnit.Name = "radioUSUnit";
-            this.radioUSUnit.Size = new System.Drawing.Size(62, 17);
-            this.radioUSUnit.TabIndex = 49;
-            this.radioUSUnit.TabStop = true;
-            this.radioUSUnit.Text = "US Unit";
-            this.radioUSUnit.UseVisualStyleBackColor = true;
-            this.radioUSUnit.CheckedChanged += new System.EventHandler(this.radioUSUnit_CheckedChanged);
+            this.zedGraphControl1.Location = new System.Drawing.Point(6, 41);
+            this.zedGraphControl1.Name = "zedGraphControl1";
+            this.zedGraphControl1.ScrollGrace = 0D;
+            this.zedGraphControl1.ScrollMaxX = 0D;
+            this.zedGraphControl1.ScrollMaxY = 0D;
+            this.zedGraphControl1.ScrollMaxY2 = 0D;
+            this.zedGraphControl1.ScrollMinX = 0D;
+            this.zedGraphControl1.ScrollMinY = 0D;
+            this.zedGraphControl1.ScrollMinY2 = 0D;
+            this.zedGraphControl1.Size = new System.Drawing.Size(958, 486);
+            this.zedGraphControl1.TabIndex = 0;
+            this.zedGraphControl1.UseExtendedPrintDialog = true;
             // 
-            // radioEuroUnit
+            // panel1
             // 
-            this.radioEuroUnit.AutoSize = true;
-            this.radioEuroUnit.Location = new System.Drawing.Point(149, 574);
-            this.radioEuroUnit.Name = "radioEuroUnit";
-            this.radioEuroUnit.Size = new System.Drawing.Size(69, 17);
-            this.radioEuroUnit.TabIndex = 50;
-            this.radioEuroUnit.TabStop = true;
-            this.radioEuroUnit.Text = "Euro Unit";
-            this.radioEuroUnit.UseVisualStyleBackColor = true;
-            this.radioEuroUnit.CheckedChanged += new System.EventHandler(this.radioEuroUnit_CheckedChanged);
+            this.panel1.Location = new System.Drawing.Point(6, 547);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(958, 62);
+            this.panel1.TabIndex = 1;
             // 
             // Form1
             // 
@@ -1507,6 +1515,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
+            this.tabPage5.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1626,6 +1635,8 @@
         private System.Windows.Forms.PictureBox pictureBox31;
         private System.Windows.Forms.RadioButton radioEuroUnit;
         private System.Windows.Forms.RadioButton radioUSUnit;
+        private System.Windows.Forms.Panel panel1;
+        private ZedGraph.ZedGraphControl zedGraphControl1;
     }
 }
 

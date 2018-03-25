@@ -771,5 +771,232 @@ namespace CyclingDataAnalysis
             lblMaximumAltitude.Text = System.Math.Round(maxAltitudeMile) + " Ft";
             lblTotalDistance.Text = totalDistanceMiles.ToString() + " miles";
         }
+
+
+
+        private void chkHeartRate_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chkHeartRate.Checked == false)
+            {
+                zedGraphControl1.GraphPane.CurveList.Remove(teamACurve);
+                zedGraphControl1.GraphPane.YAxisList[0].IsVisible = false;
+            }
+            else
+            {
+                zedGraphControl1.GraphPane.CurveList.Add(teamACurve);
+                zedGraphControl1.GraphPane.YAxisList[0].IsVisible = true;
+            }
+            zedGraphControl1.Refresh();
+        }
+
+        private void chkSpeed_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chkSpeed.Checked == false)
+            {
+                zedGraphControl1.GraphPane.CurveList.Remove(teamBCurve);
+                zedGraphControl1.GraphPane.YAxisList[1].IsVisible = false;
+            }
+            else
+            {
+                zedGraphControl1.GraphPane.CurveList.Add(teamBCurve);
+                zedGraphControl1.GraphPane.YAxisList[1].IsVisible = true;
+            }
+            zedGraphControl1.Refresh();
+        }
+
+        private void chkAltitude_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chkAltitude.Checked == false)
+            {
+                zedGraphControl1.GraphPane.CurveList.Remove(teamECurve);
+                zedGraphControl1.GraphPane.YAxisList[2].IsVisible = false;
+            }
+            else
+            {
+                zedGraphControl1.GraphPane.CurveList.Add(teamECurve);
+                zedGraphControl1.GraphPane.YAxisList[2].IsVisible = true;
+            }
+            zedGraphControl1.Refresh();
+        }
+
+        private void chkPower_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chkPower.Checked == false)
+            {
+                zedGraphControl1.GraphPane.CurveList.Remove(teamCCurve);
+                zedGraphControl1.GraphPane.YAxisList[3].IsVisible = false;
+            }
+            else
+            {
+                zedGraphControl1.GraphPane.CurveList.Add(teamCCurve);
+                zedGraphControl1.GraphPane.YAxisList[3].IsVisible = true;
+            }
+            zedGraphControl1.Refresh();
+        }
+
+        private void chkCadence_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chkCadence.Checked == false)
+            {
+                zedGraphControl1.GraphPane.CurveList.Remove(teamDCurve);
+                zedGraphControl1.GraphPane.YAxisList[4].IsVisible = false;
+            }
+            else
+            {
+                zedGraphControl1.GraphPane.CurveList.Add(teamDCurve);
+                zedGraphControl1.GraphPane.YAxisList[4].IsVisible = true;
+            }
+            zedGraphControl1.Refresh();
+        }
+
+        private void axisChangeZedGraph(ZedGraphControl zg)
+        {
+            if (zg.InvokeRequired)
+            {
+                axisChangeZedGraphCallBack ad = new axisChangeZedGraphCallBack(axisChangeZedGraph);
+                zg.Invoke(ad, new object[] { zg });
+            }
+            else
+            {
+                zedGraphControl1.AxisChange();
+                zg.Invalidate();
+                zg.Refresh();
+            }
+        }
+
+        private void zedGraph()
+        {
+            // start
+
+            GraphPane graphValue = zedGraphControl1.GraphPane;
+            // zedGraphControl1.Invalidate();
+
+            graphValue.CurveList.Clear();
+            graphValue.GraphObjList.Clear();
+            graphValue.YAxisList.Clear();
+
+            // Set the Titles
+            graphValue.Title.Text = "Data Analysis Software";
+            graphValue.XAxis.Title.Text = "Time (HH:mm:ss)";
+            // graphValue.YAxis.Title.Text = "Heart Rate";
+
+            graphValue.AddYAxis("Heart Rate");
+            graphValue.AddYAxis("Speed");
+            graphValue.AddYAxis("Altitude");
+            graphValue.AddYAxis("Power");
+            graphValue.AddYAxis("Cadence");
+
+            // Heart Rate Y AXIS
+            Console.WriteLine("----...>>" + graphValue.YAxisList[0].Title.Text);
+            graphValue.YAxisList[0].Scale.Min = minHeartRate;
+            graphValue.YAxisList[0].Scale.Max = maxHeartRate;
+
+            // Speed Y AXIS
+            Console.WriteLine("----...>>" + graphValue.YAxisList[1].Title.Text);
+            graphValue.YAxisList[1].Scale.Min = 0;
+            graphValue.YAxisList[1].Scale.Max = maxSpeed;
+
+            // Altitude Y AXIS
+            Console.WriteLine("----...>>" + graphValue.YAxisList[2].Title.Text);
+            graphValue.YAxisList[2].Scale.Min = 0;
+            graphValue.YAxisList[2].Scale.Max = maxAltitude;
+
+            // Power Y AXIS
+            Console.WriteLine("----...>>" + graphValue.YAxisList[3].Title.Text);
+            graphValue.YAxisList[3].Scale.Min = 0;
+            graphValue.YAxisList[3].Scale.Max = maxPower;
+
+            // Cadence Y AXIS
+            Console.WriteLine("----...>>" + graphValue.YAxisList[3].Title.Text);
+            graphValue.YAxisList[4].Scale.Min = 0;
+            graphValue.YAxisList[4].Scale.Max = 5000;
+
+
+            graphValue.Title.FontSpec.FontColor = Color.Crimson;
+
+            // Add gridlines to the plot, and make them gray
+            double x, y1, y2, y3, y4, y5;
+
+            // Move the legend location
+            graphValue.Legend.Position = ZedGraph.LegendPos.Top;
+            PointPairList teamAPairList = new PointPairList();
+            PointPairList teamBPairList = new PointPairList();
+            PointPairList teamCPairList = new PointPairList();
+            PointPairList teamDPairList = new PointPairList();
+            PointPairList teamEPairList = new PointPairList();
+
+            graphValue.XAxis.Type = AxisType.Date;
+            graphValue.XAxis.Scale.Format = "HH:mm:ss";
+
+
+            graphValue.XAxis.Scale.Min = 0;
+            graphValue.XAxis.Scale.Max = endTime.TotalSeconds - startTime.TotalSeconds;
+            graphValue.XAxis.Scale.MinorUnit = DateUnit.Second;
+            graphValue.XAxis.Scale.MajorUnit = DateUnit.Minute;
+
+
+            double[] heartRate = graphHeartRate;
+            double[] speed = graphSpeed;
+            double[] cadence = graphCadence;
+            double[] altitude = graphAltitude;
+            double[] power = graphPower;
+            for (int i = 0; i < heartRate.Length; i++)
+            {
+                teamAPairList.Add(i, heartRate[i]);
+            }
+            for (int i = 0; i < speed.Length; i++)
+            {
+                teamBPairList.Add(i, speed[i]);
+            }
+            for (int i = 0; i < cadence.Length; i++)
+            {
+                teamCPairList.Add(i, cadence[i]);
+            }
+            for (int i = 0; i < power.Length; i++)
+            {
+
+                teamDPairList.Add(i, power[i]);
+            }
+            for (int i = 0; i < altitude.Length; i++)
+            {
+                teamEPairList.Add(i, altitude[i]);
+            }
+
+            // Heart Rate
+            teamACurve = graphValue.AddCurve("Heart Rate", teamAPairList, Color.Red, SymbolType.None);
+
+            // Speed
+            teamBCurve = graphValue.AddCurve("Speed ", teamBPairList, Color.Blue, SymbolType.None);
+
+            // Power
+            teamCCurve = graphValue.AddCurve("Power", teamCPairList, Color.Green, SymbolType.None);
+
+            // Cadence
+            teamDCurve = graphValue.AddCurve("Cadence", teamDPairList, Color.Yellow, SymbolType.None);
+
+            // Altitude
+            teamECurve = graphValue.AddCurve("Altitude ", teamEPairList, Color.Orange, SymbolType.None);
+
+            axisChangeZedGraph(zedGraphControl1);
+
+            SetSize();
+
+            // end
+        }
+
+        private void SetSize()
+        {
+            zedGraphControl1.Location = new Point(0, 0);
+            zedGraphControl1.IsShowPointValues = true;
+            // Leave a small margin around the outside of the control
+            // zedGraphControl1.Size = new Size(this.ClientRectangle.Width - 0, this.ClientRectangle.Height - 0);
+
+        }
+
+        private void loadGraph()
+        {
+            zedGraph();
+            SetSize();
+        }
     }
 }
