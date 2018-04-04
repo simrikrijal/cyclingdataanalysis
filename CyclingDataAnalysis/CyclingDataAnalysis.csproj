@@ -1,31 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C12482E3-8EDC-4314-862F-089B101C9AB9}</ProjectGuid>
+    <ProjectGuid>{C30CB47D-C159-4AFD-BE35-65C6F1E89EC2}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>CyclingDataAnalysis</RootNamespace>
-    <AssemblyName>CyclingDataAnalysis</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Assignment1_Polar</RootNamespace>
+    <AssemblyName>Assignment1_Polar</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <PublishUrl>publish\</PublishUrl>
-    <Install>true</Install>
-    <InstallFrom>Disk</InstallFrom>
-    <UpdateEnabled>false</UpdateEnabled>
-    <UpdateMode>Foreground</UpdateMode>
-    <UpdateInterval>7</UpdateInterval>
-    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
-    <UpdatePeriodically>false</UpdatePeriodically>
-    <UpdateRequired>false</UpdateRequired>
-    <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>0</ApplicationRevision>
-    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
-    <UseApplicationTrust>false</UseApplicationTrust>
-    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -61,21 +48,63 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
-    <Reference Include="ZedGraph, Version=5.1.7.430, Culture=neutral, PublicKeyToken=02a83cbd123fcd60, processorArchitecture=MSIL">
+    <Reference Include="ZedGraph">
       <HintPath>..\packages\ZedGraph.5.1.7\lib\net35-Client\ZedGraph.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Application.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Application.Designer.cs">
+      <DependentUpon>Application.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChunkData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChunkData.Designer.cs">
+      <DependentUpon>ChunkData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChunkDataSummary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChunkDataSummary.Designer.cs">
+      <DependentUpon>ChunkDataSummary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InputFiles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InputFiles.Designer.cs">
+      <DependentUpon>InputFiles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MultipleFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MultipleFile.Designer.cs">
+      <DependentUpon>MultipleFile.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="StartPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StartPage.Designer.cs">
+      <DependentUpon>StartPage.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Application.resx">
+      <DependentUpon>Application.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChunkData.resx">
+      <DependentUpon>ChunkData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChunkDataSummary.resx">
+      <DependentUpon>ChunkDataSummary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InputFiles.resx">
+      <DependentUpon>InputFiles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MultipleFile.resx">
+      <DependentUpon>MultipleFile.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -87,6 +116,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="StartPage.resx">
+      <DependentUpon>StartPage.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -102,50 +134,20 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="License-LGPL.txt" />
-    <None Include="Resources\total.png" />
-    <None Include="Resources\minimum_heart_rate.png" />
-    <None Include="Resources\maxium_heart_rate.png" />
-    <None Include="Resources\maximum_speed.png" />
-    <None Include="Resources\maximum_power.png" />
-    <None Include="Resources\maximum_altitude.png" />
-    <None Include="Resources\avg_power.png" />
-    <None Include="Resources\avg_heart_rate.png" />
-    <None Include="Resources\avg_altitude.png" />
-    <None Include="Resources\average_speed.png" />
-    <None Include="Resources\unit.png" />
-    <None Include="Resources\speed1.png" />
-    <None Include="Resources\power_index.png" />
-    <None Include="Resources\power_balance.png" />
-    <None Include="Resources\power.png" />
-    <None Include="Resources\hr_cc.png" />
-    <None Include="Resources\cadence.png" />
-    <None Include="Resources\altitude.png" />
-    <None Include="Resources\air_pressure.png" />
-    <None Include="Resources\weight.png" />
-    <None Include="Resources\vo2.png" />
-    <None Include="Resources\version.png" />
-    <None Include="Resources\start_time.png" />
-    <None Include="Resources\start_delay.png" />
-    <None Include="Resources\speed.png" />
-    <None Include="Resources\smode.png" />
-    <None Include="Resources\rest_hr.png" />
-    <None Include="Resources\monitor.png" />
-    <None Include="Resources\max_hr.png" />
-    <None Include="Resources\length.png" />
-    <None Include="Resources\date.png" />
+    <None Include="Resources\bicycle1.png" />
   </ItemGroup>
   <ItemGroup>
-    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
-      <Visible>False</Visible>
-      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
-      <Install>true</Install>
-    </BootstrapperPackage>
-    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
-      <Visible>False</Visible>
-      <ProductName>.NET Framework 3.5 SP1</ProductName>
-      <Install>false</Install>
-    </BootstrapperPackage>
+    <None Include="Resources\imageedit_1_3223671641.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backg.jpeg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
 </Project>

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyclingDataAnalysis", "CyclingDataAnalysis\CyclingDataAnalysis.csproj", "{C12482E3-8EDC-4314-862F-089B101C9AB9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyclingDataAnalysis", "CyclingDataAnalysis\CyclingDataAnalysis.csproj", "{C30CB47D-C159-4AFD-BE35-65C6F1E89EC2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C12482E3-8EDC-4314-862F-089B101C9AB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C12482E3-8EDC-4314-862F-089B101C9AB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C12482E3-8EDC-4314-862F-089B101C9AB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C12482E3-8EDC-4314-862F-089B101C9AB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C30CB47D-C159-4AFD-BE35-65C6F1E89EC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C30CB47D-C159-4AFD-BE35-65C6F1E89EC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C30CB47D-C159-4AFD-BE35-65C6F1E89EC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C30CB47D-C159-4AFD-BE35-65C6F1E89EC2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {FC2A83C1-43BA-4CD0-A5C1-B1FD422E67FE}
+		SolutionGuid = {3A14BA83-53D0-4EC0-BB01-22A1AF103A3E}
 	EndGlobalSection
 EndGlobal
