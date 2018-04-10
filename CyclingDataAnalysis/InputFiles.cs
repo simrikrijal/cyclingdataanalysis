@@ -9,10 +9,11 @@ using System.Threading.Tasks;
 using System.IO;
 
 using System.Windows.Forms;
+using MaterialSkin.Controls;
 
-namespace Assignment1_Polar
+namespace CyclingDataAnalysis
 {
-    public partial class InputFiles : Form
+    public partial class InputFiles : MaterialForm
     {
         string fn1, fn2;
         List<string> filenames = new List<string>();

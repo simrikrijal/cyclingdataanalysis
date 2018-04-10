@@ -12,7 +12,7 @@ using System.IO;
 using System.Windows.Forms;
 using MaterialSkin.Controls;
 
-namespace Assignment1_Polar
+namespace CyclingDataAnalysis
 {
     public partial class Application : MaterialForm
     {

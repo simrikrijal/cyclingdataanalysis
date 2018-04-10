@@ -1,4 +1,4 @@
-﻿namespace Assignment1_Polar
+﻿namespace CyclingDataAnalysis
 {
     partial class ChunkData
     {

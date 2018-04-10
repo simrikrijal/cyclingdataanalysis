@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MaterialSkin.Controls;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,9 +9,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Assignment1_Polar
+namespace CyclingDataAnalysis
 {
-    public partial class ChunkData : Form
+    public partial class ChunkData : MaterialForm
     {
         int chunkNo;
         public ChunkData()

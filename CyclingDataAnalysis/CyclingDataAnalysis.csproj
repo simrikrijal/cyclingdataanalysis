@@ -7,8 +7,8 @@
     <ProjectGuid>{C30CB47D-C159-4AFD-BE35-65C6F1E89EC2}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Assignment1_Polar</RootNamespace>
-    <AssemblyName>Assignment1_Polar</AssemblyName>
+    <RootNamespace>CyclingDataAnalysis</RootNamespace>
+    <AssemblyName>CyclingDataAnalysis</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

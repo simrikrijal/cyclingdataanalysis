@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MaterialSkin.Controls;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,9 +11,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Assignment1_Polar
+namespace CyclingDataAnalysis
 {
-    public partial class MultipleFile : Form
+    public partial class MultipleFile : MaterialForm
     {
         List<string> files = new List<string>();
         public MultipleFile(List<string> files )
