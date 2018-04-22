@@ -38,31 +38,31 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(40, 76);
+            this.button1.Location = new System.Drawing.Point(40, 119);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(122, 23);
             this.button1.TabIndex = 0;
-            this.button1.Text = "Input1";
+            this.button1.Text = "File Input1";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(210, 76);
+            this.button2.Location = new System.Drawing.Point(40, 161);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.Size = new System.Drawing.Size(122, 23);
             this.button2.TabIndex = 1;
-            this.button2.Text = "Input2";
+            this.button2.Text = "FileInput2";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(130, 178);
+            this.button3.Location = new System.Drawing.Point(40, 222);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.Size = new System.Drawing.Size(122, 23);
             this.button3.TabIndex = 2;
-            this.button3.Text = "InputFiles";
+            this.button3.Text = "Start Comparing";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Visible = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
@@ -70,7 +70,7 @@
             // fname1
             // 
             this.fname1.AutoSize = true;
-            this.fname1.Location = new System.Drawing.Point(55, 121);
+            this.fname1.Location = new System.Drawing.Point(258, 124);
             this.fname1.Name = "fname1";
             this.fname1.Size = new System.Drawing.Size(35, 13);
             this.fname1.TabIndex = 3;
@@ -80,7 +80,7 @@
             // fname2
             // 
             this.fname2.AutoSize = true;
-            this.fname2.Location = new System.Drawing.Point(238, 121);
+            this.fname2.Location = new System.Drawing.Point(258, 171);
             this.fname2.Name = "fname2";
             this.fname2.Size = new System.Drawing.Size(35, 13);
             this.fname2.TabIndex = 4;
@@ -100,7 +100,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(354, 261);
+            this.ClientSize = new System.Drawing.Size(501, 285);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.fname2);
             this.Controls.Add(this.fname1);

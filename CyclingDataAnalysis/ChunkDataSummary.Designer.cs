@@ -43,6 +43,7 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -104,8 +105,6 @@
             this.label78 = new System.Windows.Forms.Label();
             this.label79 = new System.Windows.Forms.Label();
             this.label80 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.chunk1.SuspendLayout();
             this.chunk2.SuspendLayout();
@@ -122,12 +121,11 @@
             this.tabControl1.Controls.Add(this.chunk3);
             this.tabControl1.Controls.Add(this.chunk4);
             this.tabControl1.ItemSize = new System.Drawing.Size(80, 21);
-            this.tabControl1.Location = new System.Drawing.Point(32, 41);
+            this.tabControl1.Location = new System.Drawing.Point(36, 84);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(743, 417);
+            this.tabControl1.Size = new System.Drawing.Size(963, 397);
             this.tabControl1.TabIndex = 0;
-            this.tabControl1.UseWaitCursor = true;
             // 
             // chunk1
             // 
@@ -152,182 +150,173 @@
             this.chunk1.Location = new System.Drawing.Point(4, 25);
             this.chunk1.Name = "chunk1";
             this.chunk1.Padding = new System.Windows.Forms.Padding(3);
-            this.chunk1.Size = new System.Drawing.Size(735, 388);
+            this.chunk1.Size = new System.Drawing.Size(955, 368);
             this.chunk1.TabIndex = 0;
             this.chunk1.Text = "Chunk 1";
             this.chunk1.UseVisualStyleBackColor = true;
-            this.chunk1.UseWaitCursor = true;
             this.chunk1.Click += new System.EventHandler(this.chunk1_Click);
             // 
             // maxa1
             // 
             this.maxa1.AutoSize = true;
-            this.maxa1.Location = new System.Drawing.Point(500, 273);
+            this.maxa1.Location = new System.Drawing.Point(657, 307);
             this.maxa1.Name = "maxa1";
             this.maxa1.Size = new System.Drawing.Size(28, 13);
             this.maxa1.TabIndex = 19;
             this.maxa1.Text = "0.00";
-            this.maxa1.UseWaitCursor = true;
             // 
             // aa1
             // 
             this.aa1.AutoSize = true;
-            this.aa1.Location = new System.Drawing.Point(500, 201);
+            this.aa1.Location = new System.Drawing.Point(657, 235);
             this.aa1.Name = "aa1";
             this.aa1.Size = new System.Drawing.Size(28, 13);
             this.aa1.TabIndex = 18;
             this.aa1.Text = "0.00";
-            this.aa1.UseWaitCursor = true;
             // 
             // maxp1
             // 
             this.maxp1.AutoSize = true;
-            this.maxp1.Location = new System.Drawing.Point(500, 141);
+            this.maxp1.Location = new System.Drawing.Point(657, 175);
             this.maxp1.Name = "maxp1";
             this.maxp1.Size = new System.Drawing.Size(28, 13);
             this.maxp1.TabIndex = 17;
             this.maxp1.Text = "0.00";
-            this.maxp1.UseWaitCursor = true;
             // 
             // ap1
             // 
             this.ap1.AutoSize = true;
-            this.ap1.Location = new System.Drawing.Point(500, 84);
+            this.ap1.Location = new System.Drawing.Point(657, 118);
             this.ap1.Name = "ap1";
             this.ap1.Size = new System.Drawing.Size(28, 13);
             this.ap1.TabIndex = 16;
             this.ap1.Text = "0.00";
-            this.ap1.UseWaitCursor = true;
             // 
             // minHR1
             // 
             this.minHR1.AutoSize = true;
-            this.minHR1.Location = new System.Drawing.Point(500, 27);
+            this.minHR1.Location = new System.Drawing.Point(657, 61);
             this.minHR1.Name = "minHR1";
             this.minHR1.Size = new System.Drawing.Size(28, 13);
             this.minHR1.TabIndex = 15;
             this.minHR1.Text = "0.00";
-            this.minHR1.UseWaitCursor = true;
             // 
             // maxHeartRate1
             // 
             this.maxHeartRate1.AutoSize = true;
-            this.maxHeartRate1.Location = new System.Drawing.Point(182, 273);
+            this.maxHeartRate1.Location = new System.Drawing.Point(341, 250);
             this.maxHeartRate1.Name = "maxHeartRate1";
             this.maxHeartRate1.Size = new System.Drawing.Size(28, 13);
             this.maxHeartRate1.TabIndex = 14;
             this.maxHeartRate1.Text = "0.00";
-            this.maxHeartRate1.UseWaitCursor = true;
             // 
             // avgHeartRate1
             // 
             this.avgHeartRate1.AutoSize = true;
-            this.avgHeartRate1.Location = new System.Drawing.Point(182, 201);
+            this.avgHeartRate1.Location = new System.Drawing.Point(341, 178);
             this.avgHeartRate1.Name = "avgHeartRate1";
             this.avgHeartRate1.Size = new System.Drawing.Size(28, 13);
             this.avgHeartRate1.TabIndex = 13;
             this.avgHeartRate1.Text = "0.00";
-            this.avgHeartRate1.UseWaitCursor = true;
             // 
             // maxsp1
             // 
             this.maxsp1.AutoSize = true;
-            this.maxsp1.Location = new System.Drawing.Point(182, 141);
+            this.maxsp1.Location = new System.Drawing.Point(341, 118);
             this.maxsp1.Name = "maxsp1";
             this.maxsp1.Size = new System.Drawing.Size(28, 13);
             this.maxsp1.TabIndex = 12;
             this.maxsp1.Text = "0.00";
-            this.maxsp1.UseWaitCursor = true;
             // 
             // averagesp1
             // 
             this.averagesp1.AutoSize = true;
-            this.averagesp1.Location = new System.Drawing.Point(182, 84);
+            this.averagesp1.Location = new System.Drawing.Point(341, 61);
             this.averagesp1.Name = "averagesp1";
             this.averagesp1.Size = new System.Drawing.Size(28, 13);
             this.averagesp1.TabIndex = 11;
             this.averagesp1.Text = "0.00";
-            this.averagesp1.UseWaitCursor = true;
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(357, 273);
+            this.label11.Location = new System.Drawing.Point(514, 307);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(89, 13);
             this.label11.TabIndex = 9;
             this.label11.Text = "Maximum Altitude";
-            this.label11.UseWaitCursor = true;
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(357, 201);
+            this.label10.Location = new System.Drawing.Point(514, 235);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(87, 13);
             this.label10.TabIndex = 8;
             this.label10.Text = "Average Ailtitude";
-            this.label10.UseWaitCursor = true;
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(357, 141);
+            this.label9.Location = new System.Drawing.Point(514, 175);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(84, 13);
             this.label9.TabIndex = 7;
             this.label9.Text = "Maximum Power";
-            this.label9.UseWaitCursor = true;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(357, 84);
+            this.label8.Location = new System.Drawing.Point(514, 118);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(80, 13);
             this.label8.TabIndex = 6;
             this.label8.Text = "Average Power";
-            this.label8.UseWaitCursor = true;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(514, 61);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(103, 13);
+            this.label7.TabIndex = 5;
+            this.label7.Text = "Minimum Heart Rate";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(29, 273);
+            this.label6.Location = new System.Drawing.Point(188, 250);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(106, 13);
             this.label6.TabIndex = 4;
             this.label6.Text = "Maximum Heart Rate";
-            this.label6.UseWaitCursor = true;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(29, 201);
+            this.label5.Location = new System.Drawing.Point(188, 178);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(102, 13);
             this.label5.TabIndex = 3;
             this.label5.Text = "Average Heart Rate";
-            this.label5.UseWaitCursor = true;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(29, 141);
+            this.label4.Location = new System.Drawing.Point(188, 118);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(85, 13);
             this.label4.TabIndex = 2;
             this.label4.Text = "Maximum Speed";
-            this.label4.UseWaitCursor = true;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(29, 84);
+            this.label3.Location = new System.Drawing.Point(188, 61);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(81, 13);
             this.label3.TabIndex = 1;
             this.label3.Text = "Average Speed";
-            this.label3.UseWaitCursor = true;
             // 
             // chunk2
             // 
@@ -352,11 +341,10 @@
             this.chunk2.Location = new System.Drawing.Point(4, 25);
             this.chunk2.Name = "chunk2";
             this.chunk2.Padding = new System.Windows.Forms.Padding(3);
-            this.chunk2.Size = new System.Drawing.Size(735, 388);
+            this.chunk2.Size = new System.Drawing.Size(955, 368);
             this.chunk2.TabIndex = 1;
             this.chunk2.Text = "Chunk 2";
             this.chunk2.UseVisualStyleBackColor = true;
-            this.chunk2.UseWaitCursor = true;
             // 
             // maxa2
             // 
@@ -366,7 +354,6 @@
             this.maxa2.Size = new System.Drawing.Size(28, 13);
             this.maxa2.TabIndex = 39;
             this.maxa2.Text = "0.00";
-            this.maxa2.UseWaitCursor = true;
             // 
             // aa2
             // 
@@ -376,7 +363,6 @@
             this.aa2.Size = new System.Drawing.Size(28, 13);
             this.aa2.TabIndex = 38;
             this.aa2.Text = "0.00";
-            this.aa2.UseWaitCursor = true;
             // 
             // maxp2
             // 
@@ -386,7 +372,6 @@
             this.maxp2.Size = new System.Drawing.Size(28, 13);
             this.maxp2.TabIndex = 37;
             this.maxp2.Text = "0.00";
-            this.maxp2.UseWaitCursor = true;
             // 
             // ap2
             // 
@@ -396,7 +381,6 @@
             this.ap2.Size = new System.Drawing.Size(28, 13);
             this.ap2.TabIndex = 36;
             this.ap2.Text = "0.00";
-            this.ap2.UseWaitCursor = true;
             // 
             // maxHR2
             // 
@@ -406,47 +390,42 @@
             this.maxHR2.Size = new System.Drawing.Size(28, 13);
             this.maxHR2.TabIndex = 35;
             this.maxHR2.Text = "0.00";
-            this.maxHR2.UseWaitCursor = true;
             // 
             // minHR2
             // 
             this.minHR2.AutoSize = true;
-            this.minHR2.Location = new System.Drawing.Point(271, 311);
+            this.minHR2.Location = new System.Drawing.Point(278, 254);
             this.minHR2.Name = "minHR2";
             this.minHR2.Size = new System.Drawing.Size(28, 13);
             this.minHR2.TabIndex = 34;
             this.minHR2.Text = "0.00";
-            this.minHR2.UseWaitCursor = true;
             // 
             // averagehrate2
             // 
             this.averagehrate2.AutoSize = true;
-            this.averagehrate2.Location = new System.Drawing.Point(271, 239);
+            this.averagehrate2.Location = new System.Drawing.Point(278, 182);
             this.averagehrate2.Name = "averagehrate2";
             this.averagehrate2.Size = new System.Drawing.Size(28, 13);
             this.averagehrate2.TabIndex = 33;
             this.averagehrate2.Text = "0.00";
-            this.averagehrate2.UseWaitCursor = true;
             // 
             // maxsp2
             // 
             this.maxsp2.AutoSize = true;
-            this.maxsp2.Location = new System.Drawing.Point(271, 179);
+            this.maxsp2.Location = new System.Drawing.Point(278, 122);
             this.maxsp2.Name = "maxsp2";
             this.maxsp2.Size = new System.Drawing.Size(28, 13);
             this.maxsp2.TabIndex = 32;
             this.maxsp2.Text = "0.00";
-            this.maxsp2.UseWaitCursor = true;
             // 
             // averagesp2
             // 
             this.averagesp2.AutoSize = true;
-            this.averagesp2.Location = new System.Drawing.Point(271, 122);
+            this.averagesp2.Location = new System.Drawing.Point(278, 65);
             this.averagesp2.Name = "averagesp2";
             this.averagesp2.Size = new System.Drawing.Size(28, 13);
             this.averagesp2.TabIndex = 31;
             this.averagesp2.Text = "0.00";
-            this.averagesp2.UseWaitCursor = true;
             // 
             // label32
             // 
@@ -456,7 +435,6 @@
             this.label32.Size = new System.Drawing.Size(89, 13);
             this.label32.TabIndex = 29;
             this.label32.Text = "Maximum Altitude";
-            this.label32.UseWaitCursor = true;
             // 
             // label33
             // 
@@ -466,7 +444,6 @@
             this.label33.Size = new System.Drawing.Size(87, 13);
             this.label33.TabIndex = 28;
             this.label33.Text = "Average Ailtitude";
-            this.label33.UseWaitCursor = true;
             // 
             // label34
             // 
@@ -476,7 +453,6 @@
             this.label34.Size = new System.Drawing.Size(84, 13);
             this.label34.TabIndex = 27;
             this.label34.Text = "Maximum Power";
-            this.label34.UseWaitCursor = true;
             // 
             // label35
             // 
@@ -486,7 +462,6 @@
             this.label35.Size = new System.Drawing.Size(80, 13);
             this.label35.TabIndex = 26;
             this.label35.Text = "Average Power";
-            this.label35.UseWaitCursor = true;
             // 
             // label36
             // 
@@ -496,47 +471,42 @@
             this.label36.Size = new System.Drawing.Size(103, 13);
             this.label36.TabIndex = 25;
             this.label36.Text = "Minimum Heart Rate";
-            this.label36.UseWaitCursor = true;
             // 
             // label37
             // 
             this.label37.AutoSize = true;
-            this.label37.Location = new System.Drawing.Point(118, 311);
+            this.label37.Location = new System.Drawing.Point(125, 254);
             this.label37.Name = "label37";
             this.label37.Size = new System.Drawing.Size(106, 13);
             this.label37.TabIndex = 24;
             this.label37.Text = "Maximum Heart Rate";
-            this.label37.UseWaitCursor = true;
             // 
             // label38
             // 
             this.label38.AutoSize = true;
-            this.label38.Location = new System.Drawing.Point(118, 239);
+            this.label38.Location = new System.Drawing.Point(125, 182);
             this.label38.Name = "label38";
             this.label38.Size = new System.Drawing.Size(102, 13);
             this.label38.TabIndex = 23;
             this.label38.Text = "Average Heart Rate";
-            this.label38.UseWaitCursor = true;
             // 
             // label39
             // 
             this.label39.AutoSize = true;
-            this.label39.Location = new System.Drawing.Point(118, 179);
+            this.label39.Location = new System.Drawing.Point(125, 122);
             this.label39.Name = "label39";
             this.label39.Size = new System.Drawing.Size(85, 13);
             this.label39.TabIndex = 22;
             this.label39.Text = "Maximum Speed";
-            this.label39.UseWaitCursor = true;
             // 
             // label40
             // 
             this.label40.AutoSize = true;
-            this.label40.Location = new System.Drawing.Point(118, 122);
+            this.label40.Location = new System.Drawing.Point(125, 65);
             this.label40.Name = "label40";
             this.label40.Size = new System.Drawing.Size(81, 13);
             this.label40.TabIndex = 21;
             this.label40.Text = "Average Speed";
-            this.label40.UseWaitCursor = true;
             // 
             // chunk3
             // 
@@ -561,11 +531,10 @@
             this.chunk3.Location = new System.Drawing.Point(4, 25);
             this.chunk3.Name = "chunk3";
             this.chunk3.Padding = new System.Windows.Forms.Padding(3);
-            this.chunk3.Size = new System.Drawing.Size(735, 388);
+            this.chunk3.Size = new System.Drawing.Size(955, 368);
             this.chunk3.TabIndex = 2;
             this.chunk3.Text = "Chunk 3";
             this.chunk3.UseVisualStyleBackColor = true;
-            this.chunk3.UseWaitCursor = true;
             // 
             // maxa3
             // 
@@ -575,7 +544,6 @@
             this.maxa3.Size = new System.Drawing.Size(28, 13);
             this.maxa3.TabIndex = 39;
             this.maxa3.Text = "0.00";
-            this.maxa3.UseWaitCursor = true;
             // 
             // aa3
             // 
@@ -585,7 +553,6 @@
             this.aa3.Size = new System.Drawing.Size(28, 13);
             this.aa3.TabIndex = 38;
             this.aa3.Text = "0.00";
-            this.aa3.UseWaitCursor = true;
             // 
             // maxp3
             // 
@@ -595,7 +562,6 @@
             this.maxp3.Size = new System.Drawing.Size(28, 13);
             this.maxp3.TabIndex = 37;
             this.maxp3.Text = "0.00";
-            this.maxp3.UseWaitCursor = true;
             // 
             // ap3
             // 
@@ -605,7 +571,6 @@
             this.ap3.Size = new System.Drawing.Size(28, 13);
             this.ap3.TabIndex = 36;
             this.ap3.Text = "0.00";
-            this.ap3.UseWaitCursor = true;
             // 
             // minhr3
             // 
@@ -615,47 +580,42 @@
             this.minhr3.Size = new System.Drawing.Size(28, 13);
             this.minhr3.TabIndex = 35;
             this.minhr3.Text = "0.00";
-            this.minhr3.UseWaitCursor = true;
             // 
             // maxhr3
             // 
             this.maxhr3.AutoSize = true;
-            this.maxhr3.Location = new System.Drawing.Point(271, 311);
+            this.maxhr3.Location = new System.Drawing.Point(274, 254);
             this.maxhr3.Name = "maxhr3";
             this.maxhr3.Size = new System.Drawing.Size(28, 13);
             this.maxhr3.TabIndex = 34;
             this.maxhr3.Text = "0.00";
-            this.maxhr3.UseWaitCursor = true;
             // 
             // averagehr3
             // 
             this.averagehr3.AutoSize = true;
-            this.averagehr3.Location = new System.Drawing.Point(271, 239);
+            this.averagehr3.Location = new System.Drawing.Point(274, 182);
             this.averagehr3.Name = "averagehr3";
             this.averagehr3.Size = new System.Drawing.Size(28, 13);
             this.averagehr3.TabIndex = 33;
             this.averagehr3.Text = "0.00";
-            this.averagehr3.UseWaitCursor = true;
             // 
             // maxsp3
             // 
             this.maxsp3.AutoSize = true;
-            this.maxsp3.Location = new System.Drawing.Point(271, 179);
+            this.maxsp3.Location = new System.Drawing.Point(274, 122);
             this.maxsp3.Name = "maxsp3";
             this.maxsp3.Size = new System.Drawing.Size(28, 13);
             this.maxsp3.TabIndex = 32;
             this.maxsp3.Text = "0.00";
-            this.maxsp3.UseWaitCursor = true;
             // 
             // averagesp3
             // 
             this.averagesp3.AutoSize = true;
-            this.averagesp3.Location = new System.Drawing.Point(271, 122);
+            this.averagesp3.Location = new System.Drawing.Point(274, 65);
             this.averagesp3.Name = "averagesp3";
             this.averagesp3.Size = new System.Drawing.Size(28, 13);
             this.averagesp3.TabIndex = 31;
             this.averagesp3.Text = "0.00";
-            this.averagesp3.UseWaitCursor = true;
             // 
             // label52
             // 
@@ -665,7 +625,6 @@
             this.label52.Size = new System.Drawing.Size(89, 13);
             this.label52.TabIndex = 29;
             this.label52.Text = "Maximum Altitude";
-            this.label52.UseWaitCursor = true;
             // 
             // label53
             // 
@@ -675,7 +634,6 @@
             this.label53.Size = new System.Drawing.Size(87, 13);
             this.label53.TabIndex = 28;
             this.label53.Text = "Average Ailtitude";
-            this.label53.UseWaitCursor = true;
             // 
             // label54
             // 
@@ -685,7 +643,6 @@
             this.label54.Size = new System.Drawing.Size(84, 13);
             this.label54.TabIndex = 27;
             this.label54.Text = "Maximum Power";
-            this.label54.UseWaitCursor = true;
             // 
             // label55
             // 
@@ -695,7 +652,6 @@
             this.label55.Size = new System.Drawing.Size(80, 13);
             this.label55.TabIndex = 26;
             this.label55.Text = "Average Power";
-            this.label55.UseWaitCursor = true;
             // 
             // label56
             // 
@@ -705,47 +661,42 @@
             this.label56.Size = new System.Drawing.Size(103, 13);
             this.label56.TabIndex = 25;
             this.label56.Text = "Minimum Heart Rate";
-            this.label56.UseWaitCursor = true;
             // 
             // label57
             // 
             this.label57.AutoSize = true;
-            this.label57.Location = new System.Drawing.Point(118, 311);
+            this.label57.Location = new System.Drawing.Point(121, 254);
             this.label57.Name = "label57";
             this.label57.Size = new System.Drawing.Size(106, 13);
             this.label57.TabIndex = 24;
             this.label57.Text = "Maximum Heart Rate";
-            this.label57.UseWaitCursor = true;
             // 
             // label58
             // 
             this.label58.AutoSize = true;
-            this.label58.Location = new System.Drawing.Point(118, 239);
+            this.label58.Location = new System.Drawing.Point(121, 182);
             this.label58.Name = "label58";
             this.label58.Size = new System.Drawing.Size(102, 13);
             this.label58.TabIndex = 23;
             this.label58.Text = "Average Heart Rate";
-            this.label58.UseWaitCursor = true;
             // 
             // label59
             // 
             this.label59.AutoSize = true;
-            this.label59.Location = new System.Drawing.Point(118, 179);
+            this.label59.Location = new System.Drawing.Point(121, 122);
             this.label59.Name = "label59";
             this.label59.Size = new System.Drawing.Size(85, 13);
             this.label59.TabIndex = 22;
             this.label59.Text = "Maximum Speed";
-            this.label59.UseWaitCursor = true;
             // 
             // label60
             // 
             this.label60.AutoSize = true;
-            this.label60.Location = new System.Drawing.Point(118, 122);
+            this.label60.Location = new System.Drawing.Point(121, 65);
             this.label60.Name = "label60";
             this.label60.Size = new System.Drawing.Size(81, 13);
             this.label60.TabIndex = 21;
             this.label60.Text = "Average Speed";
-            this.label60.UseWaitCursor = true;
             // 
             // chunk4
             // 
@@ -770,11 +721,10 @@
             this.chunk4.Location = new System.Drawing.Point(4, 25);
             this.chunk4.Name = "chunk4";
             this.chunk4.Padding = new System.Windows.Forms.Padding(3);
-            this.chunk4.Size = new System.Drawing.Size(735, 388);
+            this.chunk4.Size = new System.Drawing.Size(955, 368);
             this.chunk4.TabIndex = 3;
             this.chunk4.Text = "Chunk 4";
             this.chunk4.UseVisualStyleBackColor = true;
-            this.chunk4.UseWaitCursor = true;
             // 
             // maxa4
             // 
@@ -784,7 +734,6 @@
             this.maxa4.Size = new System.Drawing.Size(28, 13);
             this.maxa4.TabIndex = 39;
             this.maxa4.Text = "0.00";
-            this.maxa4.UseWaitCursor = true;
             // 
             // aa4
             // 
@@ -794,7 +743,6 @@
             this.aa4.Size = new System.Drawing.Size(28, 13);
             this.aa4.TabIndex = 38;
             this.aa4.Text = "0.00";
-            this.aa4.UseWaitCursor = true;
             // 
             // maxp4
             // 
@@ -804,7 +752,6 @@
             this.maxp4.Size = new System.Drawing.Size(28, 13);
             this.maxp4.TabIndex = 37;
             this.maxp4.Text = "0.00";
-            this.maxp4.UseWaitCursor = true;
             // 
             // ap4
             // 
@@ -814,7 +761,6 @@
             this.ap4.Size = new System.Drawing.Size(28, 13);
             this.ap4.TabIndex = 36;
             this.ap4.Text = "0.00";
-            this.ap4.UseWaitCursor = true;
             // 
             // minhr4
             // 
@@ -824,47 +770,42 @@
             this.minhr4.Size = new System.Drawing.Size(28, 13);
             this.minhr4.TabIndex = 35;
             this.minhr4.Text = "0.00";
-            this.minhr4.UseWaitCursor = true;
             // 
             // maxhr4
             // 
             this.maxhr4.AutoSize = true;
-            this.maxhr4.Location = new System.Drawing.Point(271, 311);
+            this.maxhr4.Location = new System.Drawing.Point(273, 254);
             this.maxhr4.Name = "maxhr4";
             this.maxhr4.Size = new System.Drawing.Size(28, 13);
             this.maxhr4.TabIndex = 34;
             this.maxhr4.Text = "0.00";
-            this.maxhr4.UseWaitCursor = true;
             // 
             // averagehr4
             // 
             this.averagehr4.AutoSize = true;
-            this.averagehr4.Location = new System.Drawing.Point(271, 239);
+            this.averagehr4.Location = new System.Drawing.Point(273, 182);
             this.averagehr4.Name = "averagehr4";
             this.averagehr4.Size = new System.Drawing.Size(28, 13);
             this.averagehr4.TabIndex = 33;
             this.averagehr4.Text = "0.00";
-            this.averagehr4.UseWaitCursor = true;
             // 
             // maxsp4
             // 
             this.maxsp4.AutoSize = true;
-            this.maxsp4.Location = new System.Drawing.Point(271, 179);
+            this.maxsp4.Location = new System.Drawing.Point(273, 122);
             this.maxsp4.Name = "maxsp4";
             this.maxsp4.Size = new System.Drawing.Size(28, 13);
             this.maxsp4.TabIndex = 32;
             this.maxsp4.Text = "0.00";
-            this.maxsp4.UseWaitCursor = true;
             // 
             // averagesp4
             // 
             this.averagesp4.AutoSize = true;
-            this.averagesp4.Location = new System.Drawing.Point(271, 122);
+            this.averagesp4.Location = new System.Drawing.Point(273, 65);
             this.averagesp4.Name = "averagesp4";
             this.averagesp4.Size = new System.Drawing.Size(28, 13);
             this.averagesp4.TabIndex = 31;
             this.averagesp4.Text = "0.00";
-            this.averagesp4.UseWaitCursor = true;
             // 
             // label72
             // 
@@ -874,7 +815,6 @@
             this.label72.Size = new System.Drawing.Size(89, 13);
             this.label72.TabIndex = 29;
             this.label72.Text = "Maximum Altitude";
-            this.label72.UseWaitCursor = true;
             // 
             // label73
             // 
@@ -884,7 +824,6 @@
             this.label73.Size = new System.Drawing.Size(87, 13);
             this.label73.TabIndex = 28;
             this.label73.Text = "Average Ailtitude";
-            this.label73.UseWaitCursor = true;
             // 
             // label74
             // 
@@ -894,7 +833,6 @@
             this.label74.Size = new System.Drawing.Size(84, 13);
             this.label74.TabIndex = 27;
             this.label74.Text = "Maximum Power";
-            this.label74.UseWaitCursor = true;
             // 
             // label75
             // 
@@ -904,7 +842,6 @@
             this.label75.Size = new System.Drawing.Size(80, 13);
             this.label75.TabIndex = 26;
             this.label75.Text = "Average Power";
-            this.label75.UseWaitCursor = true;
             // 
             // label76
             // 
@@ -914,78 +851,51 @@
             this.label76.Size = new System.Drawing.Size(103, 13);
             this.label76.TabIndex = 25;
             this.label76.Text = "Minimum Heart Rate";
-            this.label76.UseWaitCursor = true;
             // 
             // label77
             // 
             this.label77.AutoSize = true;
-            this.label77.Location = new System.Drawing.Point(118, 311);
+            this.label77.Location = new System.Drawing.Point(120, 254);
             this.label77.Name = "label77";
             this.label77.Size = new System.Drawing.Size(106, 13);
             this.label77.TabIndex = 24;
             this.label77.Text = "Maximum Heart Rate";
-            this.label77.UseWaitCursor = true;
             // 
             // label78
             // 
             this.label78.AutoSize = true;
-            this.label78.Location = new System.Drawing.Point(118, 239);
+            this.label78.Location = new System.Drawing.Point(120, 182);
             this.label78.Name = "label78";
             this.label78.Size = new System.Drawing.Size(102, 13);
             this.label78.TabIndex = 23;
             this.label78.Text = "Average Heart Rate";
-            this.label78.UseWaitCursor = true;
             // 
             // label79
             // 
             this.label79.AutoSize = true;
-            this.label79.Location = new System.Drawing.Point(118, 179);
+            this.label79.Location = new System.Drawing.Point(120, 122);
             this.label79.Name = "label79";
             this.label79.Size = new System.Drawing.Size(85, 13);
             this.label79.TabIndex = 22;
             this.label79.Text = "Maximum Speed";
-            this.label79.UseWaitCursor = true;
             // 
             // label80
             // 
             this.label80.AutoSize = true;
-            this.label80.Location = new System.Drawing.Point(118, 122);
+            this.label80.Location = new System.Drawing.Point(120, 65);
             this.label80.Name = "label80";
             this.label80.Size = new System.Drawing.Size(81, 13);
             this.label80.TabIndex = 21;
             this.label80.Text = "Average Speed";
-            this.label80.UseWaitCursor = true;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)(((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic)
-                | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(305, 18);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(183, 20);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Chunk Data Summary";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(357, 27);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(103, 13);
-            this.label7.TabIndex = 5;
-            this.label7.Text = "Minimum Heart Rate";
-            this.label7.UseWaitCursor = true;
             // 
             // ChunkDataSummary
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(805, 470);
-            this.Controls.Add(this.label1);
+            this.ClientSize = new System.Drawing.Size(1046, 513);
             this.Controls.Add(this.tabControl1);
             this.Name = "ChunkDataSummary";
-            this.Text = "ChunkDataSummary";
+            this.Text = "Chunk Data Summary";
             this.Load += new System.EventHandler(this.ChunkDataSummary_Load);
             this.tabControl1.ResumeLayout(false);
             this.chunk1.ResumeLayout(false);
@@ -997,7 +907,6 @@
             this.chunk4.ResumeLayout(false);
             this.chunk4.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -1008,7 +917,6 @@
         private System.Windows.Forms.TabPage chunk2;
         private System.Windows.Forms.TabPage chunk3;
         private System.Windows.Forms.TabPage chunk4;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
