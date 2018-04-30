@@ -77,12 +77,14 @@ namespace CyclingDataAnalysis
 
         }
       
+
         string fileData;
-         string startTimeValue, intervalValue;
+        string startTimeValue, intervalValue;
         int count = 0;
         int timeArrCount = 0;
         public static List<TimeSpan> totalTime = new List<TimeSpan>();
         public static string smode { get; set; }
+
 
         private void dataGridViewfile1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
