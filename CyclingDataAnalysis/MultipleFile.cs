@@ -11,6 +11,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace CyclingDataAnalysis
 {
     public partial class MultipleFile : MaterialForm
@@ -21,6 +22,7 @@ namespace CyclingDataAnalysis
             InitializeComponent();
             this.files = files;
         }
+
         private void MultipleFile_Load(object sender, EventArgs e)
         {
             
@@ -42,6 +44,7 @@ namespace CyclingDataAnalysis
                 
             }
            
+
             // If the two gridview have the same number of column and row :
 
             for (int k = 0; k < dataGridViewfile1.Rows.Count; k++)
