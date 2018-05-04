@@ -1456,9 +1456,6 @@ namespace CyclingDataAnalysis
 
         }
 
-     
-       
-
         /// <summary>
         /// checkbox to show powerGraph
         /// </summary>
